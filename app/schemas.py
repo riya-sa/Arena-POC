@@ -164,3 +164,4 @@ class ErrorResponse(BaseModel):
     """Error response."""
     detail: str
     error_code: Optional[str] = None
+
