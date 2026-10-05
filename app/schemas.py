@@ -73,14 +73,6 @@ class CandidateVersionCreate(BaseModel):
     config: dict = Field(default_factory=dict, description="Model configuration (temperature, max_tokens, etc.)")
 
 
-class CandidateCreate(BaseModel):
-    """Candidate creation request."""
-    name: str = Field(..., description="Model name")
-    provider: str = Field(..., description="Provider (anthropic, openai, local)")
-    description: Optional[str] = Field(None, description="Description")
-    version: CandidateVersionCreate = Field(..., description="Initial version")
-
-
 class CandidateVersionResponse(BaseModel):
     """Candidate version response."""
     id: UUID
@@ -92,6 +84,14 @@ class CandidateVersionResponse(BaseModel):
     
     class Config:
         from_attributes = True
+
+
+class CandidateCreate(BaseModel):
+    """Candidate creation request."""
+    name: str = Field(..., description="Model name")
+    provider: str = Field(..., description="Provider (anthropic, openai, local, mock)")
+    description: Optional[str] = Field(None, description="Description")
+    version: CandidateVersionCreate = Field(..., description="Initial version")
 
 
 class CandidateResponse(BaseModel):
@@ -115,6 +115,28 @@ class ExperimentCreate(BaseModel):
     name: Optional[str] = Field(None, description="Experiment name")
     repetitions: int = Field(default=1, ge=1, le=10, description="Runs per task-candidate")
     budget_usd: Optional[Decimal] = Field(None, description="Max budget")
+
+
+class ExperimentDetailResponse(BaseModel):
+    """Experiment response with all details."""
+    id: UUID
+    status: str
+    name: Optional[str]
+    repetitions: int
+    budget_usd: Optional[Decimal]
+    spent_usd: Decimal
+    submitted_at: datetime
+    started_at: Optional[datetime]
+    completed_at: Optional[datetime]
+    error_message: Optional[str]
+    
+    # Summary stats
+    total_executions: int = 0
+    completed_executions: int = 0
+    failed_executions: int = 0
+    
+    class Config:
+        from_attributes = True
 
 
 class ExecutionResponse(BaseModel):
@@ -164,4 +186,3 @@ class ErrorResponse(BaseModel):
     """Error response."""
     detail: str
     error_code: Optional[str] = None
-
