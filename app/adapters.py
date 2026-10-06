@@ -155,11 +155,17 @@ class MockAdapter(CandidateAdapter):
     """
     Mock adapter for testing - returns canned responses, no API cost.
     Useful for POC development before real API keys are available.
+    
+    Supports quality_level in config for testing different model performance:
+    - "high" → Scores 100/100 (all tests pass)
+    - "medium" → Scores ~70/100 (most tests pass)
+    - "low" → Scores ~40/100 (some tests pass)
     """
     
     def __init__(self, config: dict):
         super().__init__(config)
-        logger.info(f"Initialized MockAdapter: {self.model_id}")
+        self.quality_level = config.get("quality_level", "medium")
+        logger.info(f"Initialized MockAdapter: {self.model_id} (quality: {self.quality_level})")
     
     def health_check(self) -> bool:
         """Always healthy for testing."""

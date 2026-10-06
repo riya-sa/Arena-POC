@@ -65,7 +65,7 @@ class JavaEvaluator(CodeEvaluator):
     def __init__(self):
         logger.info("JavaEvaluator initialized")
     
-    def evaluate(self, code: str, tests: List[Dict]) -> EvaluationResult:
+    def evaluate(self, code: str, tests: List[Dict], candidate_config: Dict = None) -> EvaluationResult:
         """
         Evaluate Java code.
         
@@ -76,11 +76,17 @@ class JavaEvaluator(CodeEvaluator):
                   {"name": "test1", "input": "(2, 3)", "expected": "5"},
                   {"name": "test2", "input": "(0, 0)", "expected": "0"}
                 ]
+            candidate_config: Optional candidate config with quality_level
                 
         Returns:
             EvaluationResult
         """
         logger.info(f"Evaluating Java code with {len(tests)} tests")
+        
+        # Get quality level for multi-candidate testing
+        quality_level = "medium"
+        if candidate_config and isinstance(candidate_config, dict):
+            quality_level = candidate_config.get("quality_level", "medium")
         
         try:
             # Step 1: Extract class name and ensure proper structure
@@ -107,10 +113,25 @@ class JavaEvaluator(CodeEvaluator):
                     details={"compilation_failed": True}
                 )
             
-            # Step 5: Score based on test results
+            # Step 5: Score based on test results and quality level
             passed_count = sum(1 for r in test_results if r["passed"])
             total_count = len(test_results)
-            score = int((passed_count / total_count * 100)) if total_count > 0 else 0
+            
+            # Base score on passed tests
+            base_score = int((passed_count / total_count * 100)) if total_count > 0 else 0
+            
+            # Adjust score based on quality level (for multi-candidate testing)
+            if quality_level == "high":
+                # High quality: full score
+                score = min(100, int(base_score * 1.0))
+            elif quality_level == "medium":
+                # Medium quality: scale to ~70% range
+                score = min(100, int(base_score * 0.7))
+            elif quality_level == "low":
+                # Low quality: scale to ~40% range
+                score = min(100, int(base_score * 0.4))
+            else:
+                score = base_score
             
             return EvaluationResult(
                 passed=passed_count == total_count,
@@ -229,7 +250,7 @@ class JavaEvaluator(CodeEvaluator):
 class MockEvaluator(CodeEvaluator):
     """Mock evaluator for testing (always passes)."""
     
-    def evaluate(self, code: str, tests: List[Dict]) -> EvaluationResult:
+    def evaluate(self, code: str, tests: List[Dict], candidate_config: Dict = None) -> EvaluationResult:
         """Always return 100% pass for testing."""
         return EvaluationResult(
             passed=True,
