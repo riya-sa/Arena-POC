@@ -1,73 +1,33 @@
-"""
-C/AI Arena - Main FastAPI Application
-POC Phase - Benchmark Evaluation Platform
-"""
-
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import logging
+from app.config.settings import settings
+from app.api.v1 import router as v1_router
+from app.infrastructure.database import init_db
 
-from app.config import settings
-from app.logger import setup_logger
-from app.database import engine, Base, get_db
-from app.api.benchmarks import router as benchmark_router
-from app.api.candidates import router as candidate_router
-from app.api.experiments import router as experiment_router
-
-# Setup logging
-logger = setup_logger(__name__)
-
-# Create tables
-logger.info("Creating database tables...")
-Base.metadata.create_all(bind=engine)
-logger.info("Database tables created successfully")
-
-# Create FastAPI app
-app = FastAPI(
-    title="C/AI Arena POC",
-    description="Private AI Model Benchmarking Platform",
-    version="0.1.0"
-)
-
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Include routers
-app.include_router(benchmark_router, prefix="/api/v1", tags=["benchmarks"])
-app.include_router(candidate_router, prefix="/api/v1", tags=["candidates"])
-app.include_router(experiment_router, prefix="/api/v1", tags=["experiments"])
-
-# Health check
-@app.get("/health")
-async def health_check():
-    """Health check endpoint."""
-    return {
-        "status": "healthy",
-        "service": "arena-poc",
-        "environment": settings.ENVIRONMENT
-    }
-
-# Root endpoint
-@app.get("/")
-async def root():
-    """Root endpoint."""
-    return {
-        "message": "C/AI Arena POC API",
-        "version": "0.1.0",
-        "docs": "/docs"
-    }
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(
-        app,
-        host="0.0.0.0",
-        port=8000,
-        log_level=settings.LOG_LEVEL.lower()
+def create_app() -> FastAPI:
+    """Factory for FastAPI application"""
+    
+    app = FastAPI(
+        title=settings.api_title,
+        version=settings.api_version,
+        debug=settings.debug,
+        docs_url="/api/docs" if settings.debug else None,  # Hide docs in prod
     )
+    
+    # Middleware
+    app.add_middleware(CORSMiddleware, allow_origins=settings.cors_origins)
+    app.add_middleware(RequestIdMiddleware)  # Add correlation IDs
+    
+    # Initialize database
+    init_db()
+    
+    # Routes
+    app.include_router(v1_router)
+    
+    # Health check
+    @app.get("/health")
+    def health():
+        return {"status": "ok", "environment": settings.environment}
+    
+    return app
+
+app = create_app()
