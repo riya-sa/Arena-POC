@@ -171,7 +171,8 @@ def test_java_evaluation():
         passed = exe.get("passed", None)
         latency = exe.get("latency_ms", 0)
         
-        total_score += score
+        # total_score += score
+        total_score += score if score is not None else 0
         
         status_icon = "✅" if passed else "❌" if passed is False else "⚠️"
         print(f"\n{status_icon} Execution {task_id}")
