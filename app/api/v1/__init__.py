@@ -1,11 +1,13 @@
-"""API v1 endpoints"""
+"""
+app/api/v1/__init__.py
+
+Copy this file directly to: app/api/v1/__init__.py
+NO EDITING NEEDED
+"""
 
 from fastapi import APIRouter
-from app.api.v1 import benchmarks, candidates, experiments
+from app.api.v1 import benchmarks
 
 router = APIRouter(prefix="/v1", tags=["v1"])
 
-# Register all v1 routes
 router.include_router(benchmarks.router)
-router.include_router(candidates.router)
-router.include_router(experiments.router)
