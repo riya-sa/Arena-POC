@@ -5,9 +5,11 @@ File: app/database.py
 
 from typing import AsyncGenerator
 
-from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
-from sqlalchemy.pool import NullPool
+from sqlalchemy.ext.asyncio import (AsyncSession, async_sessionmaker,
+                                    create_async_engine)
 from sqlalchemy.orm import declarative_base
+from sqlalchemy.pool import NullPool
+
 from app.config import settings
 from app.logger import get_logger
 
@@ -27,11 +29,13 @@ async def init_db():
     Call this in app startup event.
     """
     global _engine, _async_session_maker
-    
+
     database_url = settings.database_url
-    
-    logger.info(f"Initializing database: {database_url.split('@')[1] if '@' in database_url else database_url}")
-    
+
+    logger.info(
+        f"Initializing database: {database_url.split('@')[1] if '@' in database_url else database_url}"
+    )
+
     # Create async engine
     _engine = create_async_engine(
         database_url,
@@ -39,24 +43,18 @@ async def init_db():
         pool_size=settings.database_pool_size,
         max_overflow=settings.database_max_overflow,
         pool_pre_ping=True,  # Verify connections before using
-        connect_args={
-            "timeout": 30,
-            "command_timeout": 30
-        }
+        connect_args={"timeout": 30, "command_timeout": 30},
     )
-    
+
     # Create session factory
     _async_session_maker = async_sessionmaker(
-        _engine,
-        class_=AsyncSession,
-        expire_on_commit=False,
-        autoflush=False
+        _engine, class_=AsyncSession, expire_on_commit=False, autoflush=False
     )
-    
+
     # Create tables
     async with _engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
-    
+
     logger.info("Database initialized successfully")
 
 
@@ -66,15 +64,16 @@ async def close_db():
     Call this in app shutdown event.
     """
     global _engine
-    
+
     if _engine:
         await _engine.dispose()
         logger.info("Database connections closed")
 
+
 async def get_db() -> AsyncGenerator[AsyncSession, None]:
     """
     FastAPI dependency to get database session.
-    
+
     Usage:
         @app.get("/")
         async def endpoint(db: AsyncSession = Depends(get_db)):
@@ -82,7 +81,7 @@ async def get_db() -> AsyncGenerator[AsyncSession, None]:
     """
     if _async_session_maker is None:
         raise RuntimeError("Database not initialized. Call init_db() on app startup.")
-    
+
     async with _async_session_maker() as session:
         try:
             yield session
@@ -97,7 +96,7 @@ async def get_db() -> AsyncGenerator[AsyncSession, None]:
 async def get_session() -> AsyncSession:
     """
     Get database session outside FastAPI dependency injection.
-    
+
     Usage in services/workers:
         session = await get_session()
         try:
@@ -107,5 +106,5 @@ async def get_session() -> AsyncSession:
     """
     if _async_session_maker is None:
         raise RuntimeError("Database not initialized. Call init_db() on app startup.")
-    
+
     return _async_session_maker()

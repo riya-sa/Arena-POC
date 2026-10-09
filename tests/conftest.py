@@ -3,13 +3,14 @@ Pytest configuration and fixtures.
 File: tests/conftest.py
 """
 
-import pytest
 import asyncio
 from typing import Generator
 
+import pytest
+
 from app.config import settings
+from app.database import Base, close_db, get_session, init_db
 from app.logger import get_logger
-from app.database import get_session, init_db, close_db, Base
 
 logger = get_logger(__name__)
 
@@ -17,6 +18,7 @@ logger = get_logger(__name__)
 # ============================================================================
 # Event Loop (for async tests)
 # ============================================================================
+
 
 @pytest.fixture(scope="session")
 def event_loop():
@@ -30,6 +32,7 @@ def event_loop():
 # Logger Fixture
 # ============================================================================
 
+
 @pytest.fixture
 def test_logger():
     """Provide logger for tests."""
@@ -40,14 +43,15 @@ def test_logger():
 # Database Fixtures
 # ============================================================================
 
+
 @pytest.fixture(scope="session")
 async def init_test_db():
     """Initialize test database once per session."""
     logger.info("Initializing test database...")
-    
+
     if settings.environment != "development":
         pytest.skip("Tests only run in development environment")
-    
+
     try:
         await init_db()
         yield
@@ -61,7 +65,7 @@ async def init_test_db():
 async def db_session():
     """Provide database session for individual tests."""
     session = await get_session()
-    
+
     try:
         yield session
         await session.rollback()
@@ -73,6 +77,7 @@ async def db_session():
 # Settings Fixture
 # ============================================================================
 
+
 @pytest.fixture
 def app_settings():
     """Provide application settings for tests."""
@@ -83,13 +88,14 @@ def app_settings():
 # Mock Adapters Fixture
 # ============================================================================
 
+
 @pytest.fixture
 def mock_benchmark_config():
     """Mock benchmark configuration."""
     return {
         "name": "Test Benchmark",
         "description": "Test benchmark for unit tests",
-        "version_number": "v1.0"
+        "version_number": "v1.0",
     }
 
 
@@ -100,27 +106,20 @@ def mock_candidate_config():
         "name": "Test Candidate",
         "provider": "mock",
         "model_id": "test-model",
-        "config": {
-            "quality_level": "medium",
-            "temperature": 0.7,
-            "max_tokens": 2048
-        }
+        "config": {"quality_level": "medium", "temperature": 0.7, "max_tokens": 2048},
     }
 
 
 @pytest.fixture
 def mock_experiment_config():
     """Mock experiment configuration."""
-    return {
-        "name": "Test Experiment",
-        "repetitions": 2,
-        "budget_usd": 50.0
-    }
+    return {"name": "Test Experiment", "repetitions": 2, "budget_usd": 50.0}
 
 
 # ============================================================================
 # Pytest Configuration
 # ============================================================================
+
 
 def pytest_configure(config):
     """Configure pytest."""
@@ -140,17 +139,20 @@ def pytest_collection_modifyitems(config, items):
 # Test Output
 # ============================================================================
 
+
 @pytest.fixture(scope="session", autouse=True)
 def session_summary():
     """Print session summary."""
     logger.info("=" * 70)
     logger.info("TEST SESSION STARTED")
     logger.info(f"Environment: {settings.environment}")
-    logger.info(f"Database: {settings.database_url.split('@')[1] if '@' in settings.database_url else 'unknown'}")
+    logger.info(
+        f"Database: {settings.database_url.split('@')[1] if '@' in settings.database_url else 'unknown'}"
+    )
     logger.info("=" * 70)
-    
+
     yield
-    
+
     logger.info("=" * 70)
     logger.info("TEST SESSION COMPLETED")
     logger.info("=" * 70)

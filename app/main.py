@@ -3,12 +3,13 @@ FastAPI application entry point.
 File: app/main.py
 """
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
 from app.config import settings
-from app.database import init_db, close_db
+from app.database import close_db, init_db
 from app.logger import get_logger
 
 # Import routers (will be created in app/api/v1/)
@@ -24,6 +25,7 @@ logger = get_logger(__name__)
 # Lifecycle Events
 # ============================================================================
 
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """
@@ -34,12 +36,12 @@ async def lifespan(app: FastAPI):
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
     logger.info(f"Environment: {settings.environment}")
     logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
-    
+
     await init_db()
     logger.info("✅ Application started")
-    
+
     yield
-    
+
     # Shutdown
     logger.info("Shutting down application...")
     await close_db()
@@ -56,7 +58,7 @@ app = FastAPI(
     description="Private AI benchmarking and evaluation platform",
     docs_url="/api/docs" if settings.enable_debug_endpoints else None,
     redoc_url="/api/redoc" if settings.enable_debug_endpoints else None,
-    lifespan=lifespan
+    lifespan=lifespan,
 )
 
 logger.info(f"FastAPI app created: {settings.app_name} v{settings.app_version}")
@@ -82,6 +84,7 @@ logger.info("CORS middleware configured")
 # Routes
 # ============================================================================
 
+
 # Health check (always available)
 @app.get("/api/v1/health", tags=["health"])
 async def health_check():
@@ -91,7 +94,7 @@ async def health_check():
     return {
         "status": "healthy",
         "version": settings.app_version,
-        "environment": settings.environment
+        "environment": settings.environment,
     }
 
 
@@ -110,6 +113,7 @@ logger.info("✅ Routes configured")
 
 from fastapi import HTTPException
 from fastapi.responses import JSONResponse
+
 from app.domain.shared.exceptions import ArenaException
 
 
@@ -124,8 +128,8 @@ async def arena_exception_handler(request, exc: ArenaException):
             "error": exc.error_code,
             "message": exc.message,
             "details": exc.details,
-            "timestamp": __import__("datetime").datetime.utcnow().isoformat()
-        }
+            "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
+        },
     )
 
 
@@ -140,8 +144,8 @@ async def generic_exception_handler(request, exc: Exception):
         content={
             "error": "INTERNAL_ERROR",
             "message": "An unexpected error occurred",
-            "timestamp": __import__("datetime").datetime.utcnow().isoformat()
-        }
+            "timestamp": __import__("datetime").datetime.utcnow().isoformat(),
+        },
     )
 
 
@@ -154,11 +158,11 @@ logger.info("✅ Error handlers configured")
 
 if __name__ == "__main__":
     import uvicorn
-    
+
     uvicorn.run(
         "app.main:app",
         host="0.0.0.0",
         port=8000,
         reload=settings.environment == "development",
-        log_level=settings.log_level.lower()
+        log_level=settings.log_level.lower(),
     )
