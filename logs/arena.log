@@ -1,0 +1,3 @@
+2026-10-08 10:35:54 - app.database - INFO - Connecting to database: postgresql://arena_user:arena_password@postgres:5432/arena_poc
+2026-10-08 10:35:55 - app.main - INFO - Creating database tables...
+2026-10-08 10:35:55 - app.main - INFO - Database tables created successfully
