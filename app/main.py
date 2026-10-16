@@ -26,23 +26,46 @@ logger = get_logger(__name__)
 # ============================================================================
 
 
+# @asynccontextmanager
+# async def lifespan(app: FastAPI):
+#     """
+#     Application lifecycle context manager.
+#     Handles startup and shutdown events.
+#     """
+#     # Startup
+#     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
+#     logger.info(f"Environment: {settings.environment}")
+#     logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
+
+#     await init_db()
+#     logger.info("✅ Application started")
+
+#     yield
+
+#     # Shutdown
+#     logger.info("Shutting down application...")
+#     await close_db()
+#     logger.info("✅ Application stopped")
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    """
-    Application lifecycle context manager.
-    Handles startup and shutdown events.
-    """
-    # Startup
+    """Application lifecycle context manager."""
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
-    logger.info(f"Environment: {settings.environment}")
+    logger.info(f"Environment: {settings.environment.value}")
     logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
-
-    await init_db()
+    
+    try:
+        await init_db()
+    except Exception as e:
+        logger.error(f"Failed to initialize database: {str(e)}")
+        if settings.environment.value == "production":
+            raise
+        logger.info("App starting without database")
+    
     logger.info("✅ Application started")
-
+    
     yield
-
-    # Shutdown
+    
     logger.info("Shutting down application...")
     await close_db()
     logger.info("✅ Application stopped")
