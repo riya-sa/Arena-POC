@@ -46,30 +46,6 @@ jobs:
           tags: |
             type=raw,value=latest
             type=raw,value=${{ github.sha }}
-
-      # - name: Extract metadata
-      #   id: meta
-      #   uses: docker/metadata-action@v5
-      #   with:
-      #     images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/arena-poc
-      #     tags: |
-      #       type=ref,event=branch
-      #       type=semver,pattern={{version}}
-      #       type=sha,prefix={{branch}}-
-      #       type=raw,value=latest,enable={{is_default_branch}}
-
-      # - name: Extract metadata
-      #   id: meta
-      #   uses: docker/metadata-action@v5
-      #   with:
-      #     images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
-      #     tags: |
-      #       type=ref,event=branch
-      #       type=semver,pattern={{version}}
-      #       type=sha,prefix={{branch}}-
-      #       type=raw,value=latest,enable={{is_default_branch}}
-
-
       - name: Build and push Docker image
         id: build
         uses: docker/build-push-action@v5
@@ -83,39 +59,7 @@ jobs:
           cache-from: type=registry,ref=ghcr.io/${{ github.repository_owner }}/arena-poc:buildcache
           cache-to: type=registry,ref=ghcr.io/${{ github.repository_owner }}/arena-poc:buildcache,mode=max
 
-      # - name: Build and push Docker image
-      #   id: build
-      #   uses: docker/build-push-action@v5
-      #   with:
-      #     context: .
-      #     push: true
-      #     tags: ${{ steps.meta.outputs.tags }}
-      #     labels: ${{ steps.meta.outputs.labels }}
-      #     cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ github.repository_owner }}/arena-poc:buildcache
-      #     cache-to: type=registry,ref=${{ env.REGISTRY }}/${{ github.repository_owner }}/arena-poc:buildcache,mode=max
-      #     # cache-from: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:buildcache
-      #     # cache-to: type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:buildcache,mode=max
-
-  # scan:
-  #   name: Vulnerability Scan (Trivy)
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: read
-  #     security-events: write
-  #   needs: build
-    
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v4
-
-  #     - name: Run Trivy vulnerability scanner
-  #       uses: aquasecurity/trivy-action@master
-  #       with:
-  #         image-ref: ghcr.io/${{ github.repository_owner }}/arena-poc:latest
-  #         format: 'sarif'
-  #         output: 'trivy-results.sarif'
-  #         severity: 'CRITICAL,HIGH'
-  #         exit-code: '0'  # Change to 0 for now to see results
+      
 
   scan:
     name: Vulnerability Scan (Trivy)
@@ -134,33 +78,7 @@ jobs:
           echo "✅ Trivy scan already completed locally (Day 8)"
           echo "SBOM and results committed to repo"
 
-      # - name: Run Trivy vulnerability scanner
-      #   uses: aquasecurity/trivy-action@master
-      #   with:
-      #     image-ref: ${{ needs.build.outputs.image }}
-      #     format: 'sarif'
-      #     output: 'trivy-results.sarif'
-      #     severity: 'CRITICAL,HIGH'
-      #     exit-code: '1'
-
-      # - name: Upload Trivy results to GitHub Security tab
-      #   uses: github/codeql-action/upload-sarif@v3
-      #   if: always()
-      #   with:
-      #     sarif_file: 'trivy-results.sarif'
-
-      # - name: Generate SBOM
-      #   uses: aquasecurity/trivy-action@master
-      #   with:
-      #     image-ref: ${{ needs.build.outputs.image }}
-      #     format: 'cyclonedx'
-      #     output: 'sbom.json'
-
-      # - name: Upload SBOM artifact
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: sbom-${{ github.sha }}
-      #     path: sbom.json
+      
 
   sign:
     name: Sign Image (Cosign)
@@ -191,42 +109,6 @@ jobs:
         run: |
           cosign sign --yes ghcr.io/${{ github.repository_owner }}/arena-poc:latest || echo "Signing skipped"
 
-  
-
-  # sign:
-  #   name: Sign Image (Cosign)
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: write
-  #     packages: write
-  #     id-token: write
-  #   needs: [build, scan]
-    
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v4
-
-  #     - name: Install Cosign
-  #       uses: sigstore/cosign-installer@v3
-
-  #     - name: Log in to GitHub Container Registry
-  #       uses: docker/login-action@v3
-  #       with:
-  #         registry: ${{ env.REGISTRY }}
-  #         username: ${{ github.actor }}
-  #         password: ${{ secrets.GITHUB_TOKEN }}
-
-  #     - name: Sign image (Keyless)
-  #       env:
-  #         COSIGN_EXPERIMENTAL: 1
-  #       run: |
-  #         cosign sign --yes ghcr.io/${{ github.repository_owner }}/arena-poc:latest
-
-      # - name: Sign image (Keyless)
-      #   env:
-      #     COSIGN_EXPERIMENTAL: 1
-      #   run: |
-      #     cosign sign --yes ${{ needs.build.outputs.image }}
 
   test:
     name: Integration Tests
@@ -253,11 +135,7 @@ jobs:
           docker run -d --name arena-test -p 8000:8000 ghcr.io/${{ github.repository_owner }}/arena-poc:latest
           sleep 10
 
-      # - name: Pull and run container
-      #   run: |
-      #     docker pull ${{ needs.build.outputs.image }}
-      #     docker run -d --name arena-test -p 8000:8000 ${{ needs.build.outputs.image }}
-      #     sleep 10
+      
 
       - name: Health check
         run: |
@@ -288,24 +166,4 @@ jobs:
           echo "**Image:** \`ghcr.io/${{ github.repository_owner }}/arena-poc:latest\`" >> $GITHUB_STEP_SUMMARY
           echo "**Trivy:** Scanned locally (Day 8) - Zero CRITICAL" >> $GITHUB_STEP_SUMMARY
 
-  # summary:
-  #   name: Pipeline Summary
-  #   runs-on: ubuntu-latest
-  #   permissions:
-  #     contents: read
-  #   needs: [build, scan, sign, test]
-  #   if: always()
-    
-  #   steps:
-  #     - name: Write job summary
-  #       run: |
-  #         echo "## Container Pipeline Summary" >> $GITHUB_STEP_SUMMARY
-  #         echo "" >> $GITHUB_STEP_SUMMARY
-  #         echo "| Job | Status |" >> $GITHUB_STEP_SUMMARY
-  #         echo "|-----|--------|" >> $GITHUB_STEP_SUMMARY
-  #         echo "| Build | ${{ needs.build.result }} |" >> $GITHUB_STEP_SUMMARY
-  #         echo "| Scan | ${{ needs.scan.result }} |" >> $GITHUB_STEP_SUMMARY
-  #         echo "| Sign | ${{ needs.sign.result }} |" >> $GITHUB_STEP_SUMMARY
-  #         echo "| Test | ${{ needs.test.result }} |" >> $GITHUB_STEP_SUMMARY
-  #         echo "" >> $GITHUB_STEP_SUMMARY
-  #         echo "**Image:** \`${{ needs.build.outputs.image }}\`" >> $GITHUB_STEP_SUMMARY
+  
