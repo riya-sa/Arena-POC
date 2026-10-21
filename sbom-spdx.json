@@ -1,0 +1,3327 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: arena:1.0.0
+DocumentNamespace: http://trivy.dev/container_image/arena:1.0.0-ea1a1662-8e86-492a-adb2-ace546c97284
+Creator: Organization: aquasecurity
+Creator: Tool: trivy-0.70.0
+Created: 2026-10-16T10:05:51Z
+
+##### Unpackaged files
+
+FileName: opt/venv/lib/python3.13/site-packages/uvloop-0.23.0.dist-info/METADATA
+SPDXID: SPDXRef-File-15ad4ce44311ef33
+FileChecksum: SHA1: 224854c953d3ee09f3394a72e322d5b3f5548efc
+
+FileName: opt/venv/lib/python3.13/site-packages/sqlalchemy-2.1.4.dist-info/METADATA
+SPDXID: SPDXRef-File-17bab96d2d3b983d
+FileChecksum: SHA1: 65225cafdb3760a29dd9821c8cc4966d3e4f37c3
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/autocommand-2.2.2.dist-info/METADATA
+SPDXID: SPDXRef-File-21b7cd1cb5b78ae
+FileChecksum: SHA1: 4310db58f98c12b23286e5fa37f0e27abefb6a4a
+
+FileName: opt/venv/lib/python3.13/site-packages/annotated_doc-0.0.5.dist-info/METADATA
+SPDXID: SPDXRef-File-25c4b13b08884a43
+FileChecksum: SHA1: fecb0abebff4796b0f4515c5327c041cb606d851
+
+FileName: opt/venv/lib/python3.13/site-packages/pytest-9.1.1.dist-info/METADATA
+SPDXID: SPDXRef-File-2dccc0ff0ff5414f
+FileChecksum: SHA1: c858f7ef77427d5d715a306c2861defe3778224b
+
+FileName: opt/venv/lib/python3.13/site-packages/isort-9.0.2.dist-info/METADATA
+SPDXID: SPDXRef-File-2f3eeb5372140f63
+FileChecksum: SHA1: 93261b39a5f8a3a81f6e06aa23085f5252e4dc86
+
+FileName: opt/venv/lib/python3.13/site-packages/idna-3.20.dist-info/METADATA
+SPDXID: SPDXRef-File-322e8363418dd6fc
+FileChecksum: SHA1: 87f7ee3eff90651bc93b49565c95ec526a2f9f5f
+
+FileName: opt/venv/lib/python3.13/site-packages/fastapi-0.143.0.dist-info/METADATA
+SPDXID: SPDXRef-File-32e93e5bbe3312dd
+FileChecksum: SHA1: 7bf9b3f638eb01d39c1895c6986c38105416459b
+
+FileName: usr/local/lib/python3.13/site-packages/pip-26.2.1.dist-info/METADATA
+SPDXID: SPDXRef-File-359ac7775c566a48
+FileChecksum: SHA1: afc39b76bfbc92cbf461e2da996898962701163a
+
+FileName: opt/venv/lib/python3.13/site-packages/pytokens-0.4.1.dist-info/METADATA
+SPDXID: SPDXRef-File-35c0ae08d28c00dd
+FileChecksum: SHA1: 3295887f0d044780797b8a861249647195a5cb30
+
+FileName: opt/venv/lib/python3.13/site-packages/mypy_extensions-1.1.0.dist-info/METADATA
+SPDXID: SPDXRef-File-361f18ba670c3279
+FileChecksum: SHA1: 087c3994e82434ef6e936fc9bc058d12f021aa4c
+
+FileName: opt/venv/lib/python3.13/site-packages/packaging-26.3.dist-info/METADATA
+SPDXID: SPDXRef-File-388568a85723700f
+FileChecksum: SHA1: bfab4082ca00cad0a8dee224dc23ea675d4abbb6
+
+FileName: opt/venv/lib/python3.13/site-packages/coverage-7.16.2.dist-info/METADATA
+SPDXID: SPDXRef-File-3917bbd12b00e2af
+FileChecksum: SHA1: be0615b47ac033cf52dfd0c59f07532ce9f8acda
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.7.1.dist-info/METADATA
+SPDXID: SPDXRef-File-4665fe066a19dd6e
+FileChecksum: SHA1: 1df950968870ceb8a6c0c0f002236727c4790c90
+
+FileName: opt/venv/lib/python3.13/site-packages/annotated_types-0.8.0.dist-info/METADATA
+SPDXID: SPDXRef-File-4975143339bf3157
+FileChecksum: SHA1: 9f4a4af24c230c3e14e1ab4b0a91a0f42026b5a4
+
+FileName: opt/venv/lib/python3.13/site-packages/pytest_asyncio-1.4.0.dist-info/METADATA
+SPDXID: SPDXRef-File-4b373f248f76ea6c
+FileChecksum: SHA1: c1b2508af7f9aa92a18715830b673d303942f22c
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/backports.tarfile-1.2.0.dist-info/METADATA
+SPDXID: SPDXRef-File-4f9b5b21ff78446f
+FileChecksum: SHA1: 3dd8d93cf7695d1c9d7574751ab5b0dee5dd7f9a
+
+FileName: opt/venv/lib/python3.13/site-packages/astroid-4.3.4.dist-info/METADATA
+SPDXID: SPDXRef-File-535c1fce040c472
+FileChecksum: SHA1: 1943e4bf08080e88362858eadf87a4afffb7a915
+
+FileName: opt/venv/lib/python3.13/site-packages/pytest_cov-7.1.0.dist-info/METADATA
+SPDXID: SPDXRef-File-549246973db6a821
+FileChecksum: SHA1: 80eb0855e31edfb0af3e6c793c44607b7eef9ffb
+
+FileName: opt/venv/lib/python3.13/site-packages/iniconfig-2.3.1.dist-info/METADATA
+SPDXID: SPDXRef-File-58da735268180b9d
+FileChecksum: SHA1: 1682fba8d9700e896a557cef55850447213fafec
+
+FileName: opt/venv/lib/python3.13/site-packages/greenlet-3.5.6.dist-info/METADATA
+SPDXID: SPDXRef-File-5c8d9c959f2a5a5f
+FileChecksum: SHA1: a85e0379321815fbd8df2a82cae78d39954b55d9
+
+FileName: opt/venv/lib/python3.13/site-packages/pygments-2.21.0.dist-info/METADATA
+SPDXID: SPDXRef-File-5e3c1ba9d81f2b73
+FileChecksum: SHA1: 243b2435ff2e6c67d007f84159b9b9dc0c3521c6
+
+FileName: opt/venv/lib/python3.13/site-packages/asyncpg-0.32.0.dist-info/METADATA
+SPDXID: SPDXRef-File-704f17c2acb58a0f
+FileChecksum: SHA1: d0b11cfe3b759d4e27542b6388f7c346f55735a7
+
+FileName: opt/venv/lib/python3.13/site-packages/starlette-1.7.0.dist-info/METADATA
+SPDXID: SPDXRef-File-734b39c7dce36c0d
+FileChecksum: SHA1: 6a79ee19cd7a0cb07ebf8c8740fcbb493148b6ff
+
+FileName: opt/venv/lib/python3.13/site-packages/h11-0.16.0.dist-info/METADATA
+SPDXID: SPDXRef-File-743e09ea7b7edaa8
+FileChecksum: SHA1: 5d41eddffefef5f6e8ff383a2537e81a38a37807
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco_functools-4.4.0.dist-info/METADATA
+SPDXID: SPDXRef-File-76221990dff807d0
+FileChecksum: SHA1: 2f136269b38b6ac2c408b362bc4706822dc08a33
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco.text-4.0.0.dist-info/METADATA
+SPDXID: SPDXRef-File-76bf35562d43797
+FileChecksum: SHA1: 81ff14310f9fb1979db497369ad9d0f4b912206f
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/platformdirs-4.4.0.dist-info/METADATA
+SPDXID: SPDXRef-File-77478d0512a1740f
+FileChecksum: SHA1: f7653d31842957feff06f3f009dc8595eab53a06
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/tomli-2.4.0.dist-info/METADATA
+SPDXID: SPDXRef-File-7869b8649ef2e3a5
+FileChecksum: SHA1: 51657e0b3dbf2a523310d8544f49b7bcfd9fa671
+
+FileName: opt/venv/lib/python3.13/site-packages/tomlkit-0.15.1.dist-info/METADATA
+SPDXID: SPDXRef-File-7d78b5faaef10170
+FileChecksum: SHA1: 9c5bd956cddd56cd2aaaac93b69e80558f26a250
+
+FileName: opt/venv/lib/python3.13/site-packages/python_dotenv-1.2.4.dist-info/METADATA
+SPDXID: SPDXRef-File-7deb8d9e898502e1
+FileChecksum: SHA1: b00070ff2a71594570b640b6bace05e0a4893e01
+
+FileName: opt/venv/lib/python3.13/site-packages/websockets-17.2.dist-info/METADATA
+SPDXID: SPDXRef-File-7f9133e6e87bb69f
+FileChecksum: SHA1: 5f1c17e67da926823eabc00686d0ea2620a9830c
+
+FileName: opt/venv/lib/python3.13/site-packages/pyyaml-6.0.3.dist-info/METADATA
+SPDXID: SPDXRef-File-92cd31131e29fb58
+FileChecksum: SHA1: 3be76483e6df5a4f8f8be5eaedfb8d7f40678c48
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco_context-6.1.0.dist-info/METADATA
+SPDXID: SPDXRef-File-9377d4869b893adb
+FileChecksum: SHA1: c1ba70653abadb34b0a0e792b9b7025b6a4d7b3e
+
+FileName: opt/venv/lib/python3.13/site-packages/typing_inspection-0.4.4.dist-info/METADATA
+SPDXID: SPDXRef-File-971f3506872da95f
+FileChecksum: SHA1: bb0b7d117c0f03650a4cdd1035e7c8a74a959994
+
+FileName: opt/venv/lib/python3.13/site-packages/black-26.10.1.dist-info/METADATA
+SPDXID: SPDXRef-File-98b52ae2e6da85a4
+FileChecksum: SHA1: f5b960d65b973a30ec22aeabd281841f4f3daf4a
+
+FileName: opt/venv/lib/python3.13/site-packages/pylint-4.1.3.dist-info/METADATA
+SPDXID: SPDXRef-File-9c38508dde6dd793
+FileChecksum: SHA1: d59f89dbf4318db87f525a9a54061b40ef6cb274
+
+FileName: opt/venv/lib/python3.13/site-packages/pydantic-2.14.1.dist-info/METADATA
+SPDXID: SPDXRef-File-9c49d820408f4ccd
+FileChecksum: SHA1: 673ad1e3454e80e8a1ce4ac3ec03d849cc82b51a
+
+FileName: opt/venv/lib/python3.13/site-packages/platformdirs-4.13.0.dist-info/METADATA
+SPDXID: SPDXRef-File-9f6f2f6b595b6642
+FileChecksum: SHA1: b45f01990de260c8d4a15d5f6ccd1852317295a5
+
+FileName: opt/venv/lib/python3.13/site-packages/uvicorn-0.54.0.dist-info/METADATA
+SPDXID: SPDXRef-File-a61a96ca91dfc5c
+FileChecksum: SHA1: 1b48dec46cb4803e85281953954c2ae33823911d
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/zipp-3.23.0.dist-info/METADATA
+SPDXID: SPDXRef-File-aa7e88dd591cc6f5
+FileChecksum: SHA1: d7974cc6cd5ace30ae2bf7e89ed458fc7e46a194
+
+FileName: opt/venv/lib/python3.13/site-packages/mccabe-0.7.0.dist-info/METADATA
+SPDXID: SPDXRef-File-abb849bf4279c657
+FileChecksum: SHA1: cc251804eb33f5004532b55ea98a6f7bac1a0f76
+
+FileName: opt/venv/lib/python3.13/site-packages/dill-0.4.1.dist-info/METADATA
+SPDXID: SPDXRef-File-b9be088eef6fd317
+FileChecksum: SHA1: 81f03256a5e66b724752ec05131fd0f1095bba22
+
+FileName: opt/venv/lib/python3.13/site-packages/watchfiles-1.3.0.dist-info/METADATA
+SPDXID: SPDXRef-File-ba34bfc1c6f85bf
+FileChecksum: SHA1: 50d9443b82d8bc02d623130d0a1b5618d0b3f170
+
+FileName: opt/venv/lib/python3.13/site-packages/pip-26.2.1.dist-info/METADATA
+SPDXID: SPDXRef-File-bd2b975c4ab9adfb
+FileChecksum: SHA1: afc39b76bfbc92cbf461e2da996898962701163a
+
+FileName: opt/venv/lib/python3.13/site-packages/opentelemetry_api-1.45.1.dist-info/METADATA
+SPDXID: SPDXRef-File-bffc4ca42f4d3684
+FileChecksum: SHA1: a74848129ac722d2cc0ce9e2fd26da59f5cabf0c
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/more_itertools-10.8.0.dist-info/METADATA
+SPDXID: SPDXRef-File-c4f5b7e09d126d92
+FileChecksum: SHA1: 55aef894a0f39f280471306f0c5ecf3730ff5863
+
+FileName: opt/venv/lib/python3.13/site-packages/pathspec-1.1.1.dist-info/METADATA
+SPDXID: SPDXRef-File-c88c77d3a6fee0d8
+FileChecksum: SHA1: 404321a9dbe913b5805539930f9822c47c7a30e8
+
+FileName: opt/venv/lib/python3.13/site-packages/anyio-4.15.1.dist-info/METADATA
+SPDXID: SPDXRef-File-cce135ff92502592
+FileChecksum: SHA1: 319a5a146117d09da093d58a784f19f212a8251e
+
+FileName: opt/venv/lib/python3.13/site-packages/wheel-0.48.0.dist-info/METADATA
+SPDXID: SPDXRef-File-d362688c56431278
+FileChecksum: SHA1: 846c7945267bf0e520a2651d78cae031b1bb1db7
+
+FileName: opt/venv/lib/python3.13/site-packages/typing_extensions-4.16.0.dist-info/METADATA
+SPDXID: SPDXRef-File-d76ed0b7305a14c0
+FileChecksum: SHA1: 510f2798ee23c416b9c396ef607b3da53555e29a
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools-84.0.0.dist-info/METADATA
+SPDXID: SPDXRef-File-e3df86a5ec8b1237
+FileChecksum: SHA1: f26d3615f4941e8d9a365eb99e39eb7dab3aa9c6
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/wheel-0.46.3.dist-info/METADATA
+SPDXID: SPDXRef-File-e44eb09d2af7fbf0
+FileChecksum: SHA1: 241e26c983f51b16a8c352de6e874712a4b70e52
+
+FileName: opt/venv/lib/python3.13/site-packages/httptools-0.9.0.dist-info/METADATA
+SPDXID: SPDXRef-File-e9163af6dbc0cf15
+FileChecksum: SHA1: 62d85c450d364a1c69349f95ce657e6157ff77b0
+
+FileName: opt/venv/lib/python3.13/site-packages/pydantic_settings-2.15.0.dist-info/METADATA
+SPDXID: SPDXRef-File-f2ab3c26a8ad4b7f
+FileChecksum: SHA1: 800cdda3605c25b42dfec0c3cbd49dc282b6a9fe
+
+FileName: opt/venv/lib/python3.13/site-packages/click-8.5.0.dist-info/METADATA
+SPDXID: SPDXRef-File-f428a43e991e68d2
+FileChecksum: SHA1: 0c8e8d67f4d6a65219f0f7f4e430d296219aba6b
+
+FileName: opt/venv/lib/python3.13/site-packages/pluggy-1.6.0.dist-info/METADATA
+SPDXID: SPDXRef-File-f7e5ddccacb16cd2
+FileChecksum: SHA1: 2abf7c035cc157e3e320d4f3ad1e75797f074aaf
+
+FileName: opt/venv/lib/python3.13/site-packages/setuptools/_vendor/packaging-26.0.dist-info/METADATA
+SPDXID: SPDXRef-File-fcb311f8e6cd8415
+FileChecksum: SHA1: c4dd2f5cdf87a40828db4725bdedc4a16a97535c
+
+FileName: opt/venv/lib/python3.13/site-packages/pydantic_core-2.50.1.dist-info/METADATA
+SPDXID: SPDXRef-File-ff13704ca57a6bf1
+FileChecksum: SHA1: 19c3bf13b55e4d9cecaf6124755b21674dd3e3ee
+
+##### Package: arena:1.0.0
+
+PackageName: arena:1.0.0
+SPDXID: SPDXRef-ContainerImage-84d3ef53f71a7869
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: CONTAINER
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+
+##### Package: debian
+
+PackageName: debian
+SPDXID: SPDXRef-OperatingSystem-fd1873ba3ae91a40
+PackageVersion: 13.7
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: OPERATING-SYSTEM
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+
+##### Package: libselinux1
+
+PackageName: libselinux1
+SPDXID: SPDXRef-Package-1020e47a9bae1794
+PackageVersion: 3.8.1-1
+PackageSupplier: Organization: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libselinux 3.8.1-1
+PackageLicenseConcluded: LicenseRef-abb60753a4b5686d AND GPL-2.0-only
+PackageLicenseDeclared: LicenseRef-abb60753a4b5686d AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libselinux1@3.8.1-1?arch=amd64&distro=debian-13.7
+
+##### Package: libstdc++6
+
+PackageName: libstdc++6
+SPDXID: SPDXRef-Package-10679e213c4c376c
+PackageVersion: 14.2.0-19
+PackageSupplier: Organization: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gcc-14 14.2.0-19
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libstdc%2B%2B6@14.2.0-19?arch=amd64&distro=debian-13.7
+
+##### Package: sysvinit-utils
+
+PackageName: sysvinit-utils
+SPDXID: SPDXRef-Package-112b13379861edd1
+PackageVersion: 3.14-4
+PackageSupplier: Organization: Debian sysvinit maintainers <debian-init-diversity@chiark.greenend.org.uk>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: sysvinit 3.14-4
+PackageLicenseConcluded: GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-only AND GPL-2.0-only AND LGPL-2.1-only
+PackageLicenseDeclared: GPL-2.0-or-later AND LGPL-2.1-or-later AND GPL-3.0-only AND GPL-2.0-only AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/sysvinit-utils@3.14-4?arch=amd64&distro=debian-13.7
+
+##### Package: black
+
+PackageName: black
+SPDXID: SPDXRef-Package-11b3b8fcf1d839b7
+PackageVersion: 26.10.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 976661094a64fee3d6c6a52af51887c5c65d4fcc
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/black@26.10.1
+
+##### Package: pathspec
+
+PackageName: pathspec
+SPDXID: SPDXRef-Package-12380a17076a6ea4
+PackageVersion: 1.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 7e2cc8cda612afc4ef80cc92a07d886b11ec9f8e
+PackageLicenseConcluded: MPL-2.0
+PackageLicenseDeclared: MPL-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pathspec@1.1.1
+
+##### Package: diffutils
+
+PackageName: diffutils
+SPDXID: SPDXRef-Package-1322aa12fc90826e
+PackageVersion: 1:3.10-4
+PackageSupplier: Organization: Santiago Vila <sanvila@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: diffutils 1:3.10-4
+PackageLicenseConcluded: GPL-3.0-or-later AND FSFULLR AND LGPL-2.1-or-later AND LicenseRef-97d647789566534c AND GPL-3.0-only AND GPL-3.0-or-later WITH texinfo-exception AND LGPL-2.0-or-later AND GPL-2.0-or-later AND X11 AND FSFAP AND GFDL-1.3-no-invariants-only AND LGPL-3.0-or-later AND LGPL-3.0-only AND LicenseRef-abb60753a4b5686d AND LGPL-2.0-only AND LGPL-2.1-only AND GPL-2.0-only AND GFDL-1.3-only
+PackageLicenseDeclared: GPL-3.0-or-later AND FSFULLR AND LGPL-2.1-or-later AND LicenseRef-97d647789566534c AND GPL-3.0-only AND GPL-3.0-or-later WITH texinfo-exception AND LGPL-2.0-or-later AND GPL-2.0-or-later AND X11 AND FSFAP AND GFDL-1.3-no-invariants-only AND LGPL-3.0-or-later AND LGPL-3.0-only AND LicenseRef-abb60753a4b5686d AND LGPL-2.0-only AND LGPL-2.1-only AND GPL-2.0-only AND GFDL-1.3-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/diffutils@3.10-4?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: jaraco.text
+
+PackageName: jaraco.text
+SPDXID: SPDXRef-Package-17d24150173e7e9
+PackageVersion: 4.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 52487388dc17d2659ff83536b3a09c8691c0913d
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.text@4.0.0
+
+##### Package: requests
+
+PackageName: requests
+SPDXID: SPDXRef-Package-1839ff0b8045b1ba
+PackageVersion: 2.34.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/requests@2.34.2
+
+##### Package: greenlet
+
+PackageName: greenlet
+SPDXID: SPDXRef-Package-1a40793fc27f0e4b
+PackageVersion: 3.5.6
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 853b9b7b99fb75977095127c80c28186e243ab87
+PackageLicenseConcluded: MIT AND PSF-2.0
+PackageLicenseDeclared: MIT AND PSF-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/greenlet@3.5.6
+
+##### Package: libzstd1
+
+PackageName: libzstd1
+SPDXID: SPDXRef-Package-1bd07a983ef402cb
+PackageVersion: 1.5.7+dfsg-1
+PackageSupplier: Organization: RPM packaging team <team+pkg-rpm@tracker.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libzstd 1.5.7+dfsg-1
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-only AND Zlib AND MIT
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-only AND Zlib AND MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libzstd1@1.5.7%2Bdfsg-1?arch=amd64&distro=debian-13.7
+
+##### Package: requests
+
+PackageName: requests
+SPDXID: SPDXRef-Package-1d10c5f30a9b2eb9
+PackageVersion: 2.34.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/requests@2.34.2
+
+##### Package: libgdbm6t64
+
+PackageName: libgdbm6t64
+SPDXID: SPDXRef-Package-1df7d3cdeaf6fae5
+PackageVersion: 1.24-2
+PackageSupplier: Organization: Nicolas Mora <babelouest@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gdbm 1.24-2
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-2.0-or-later AND GFDL-1.3-no-invariants-or-later AND GPL-3.0-only AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgdbm6t64@1.24-2?arch=amd64&distro=debian-13.7
+
+##### Package: libmount1
+
+PackageName: libmount1
+SPDXID: SPDXRef-Package-1f26bfb55dbe51c
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libmount1@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: pygments
+
+PackageName: pygments
+SPDXID: SPDXRef-Package-2060b607dd7187ad
+PackageVersion: 2.20.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pygments@2.20.0
+
+##### Package: tzdata
+
+PackageName: tzdata
+SPDXID: SPDXRef-Package-222402c3b2d685c5
+PackageVersion: 2026c-0+deb13u1
+PackageSupplier: Organization: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: tzdata 2026c-0+deb13u1
+PackageLicenseConcluded: LicenseRef-abb60753a4b5686d
+PackageLicenseDeclared: LicenseRef-abb60753a4b5686d
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/tzdata@2026c-0%2Bdeb13u1?arch=all&distro=debian-13.7
+
+##### Package: libaudit1
+
+PackageName: libaudit1
+SPDXID: SPDXRef-Package-225ff41d01d984dc
+PackageVersion: 1:4.0.2-2+deb13u1
+PackageSupplier: Organization: Laurent Bigonville <bigon@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: audit 1:4.0.2-2+deb13u1
+PackageLicenseConcluded: GPL-2.0-only AND LGPL-2.1-only AND GPL-1.0-only
+PackageLicenseDeclared: GPL-2.0-only AND LGPL-2.1-only AND GPL-1.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libaudit1@4.0.2-2%2Bdeb13u1?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: tomli
+
+PackageName: tomli
+SPDXID: SPDXRef-Package-22b89d606bc886a3
+PackageVersion: 2.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli@2.4.1
+
+##### Package: pytest-cov
+
+PackageName: pytest-cov
+SPDXID: SPDXRef-Package-233e034745481c62
+PackageVersion: 7.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: c6697f9bad27d40035508ea9f65e41832f3cfc0d
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytest-cov@7.1.0
+
+##### Package: Pygments
+
+PackageName: Pygments
+SPDXID: SPDXRef-Package-23e7ef528b24a341
+PackageVersion: 2.21.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: e2ecb872fcc81fc50daa3e9da90bb89ca439f89c
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: BSD-2-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pygments@2.21.0
+
+##### Package: libapt-pkg7.0
+
+PackageName: libapt-pkg7.0
+SPDXID: SPDXRef-Package-24dad7b2d8a15397
+PackageVersion: 3.0.3
+PackageSupplier: Organization: APT Development Team <deity@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: apt 3.0.3
+PackageLicenseConcluded: GPL-2.0-or-later AND curl AND BSD-3-Clause AND MIT AND GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND curl AND BSD-3-Clause AND MIT AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libapt-pkg7.0@3.0.3?arch=amd64&distro=debian-13.7
+
+##### Package: gzip
+
+PackageName: gzip
+SPDXID: SPDXRef-Package-250913cb2cd7c1
+PackageVersion: 1.13-1+deb13u1
+PackageSupplier: Organization: Milan Kupcevic <milan@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gzip 1.13-1+deb13u1
+PackageLicenseConcluded: GPL-3.0-or-later AND LicenseRef-d594a2107d8e7651 AND LicenseRef-d945c63a350cfc43 AND GPL-3.0-only AND LicenseRef-bfb7b77ebb9c4da0
+PackageLicenseDeclared: GPL-3.0-or-later AND LicenseRef-d594a2107d8e7651 AND LicenseRef-d945c63a350cfc43 AND GPL-3.0-only AND LicenseRef-bfb7b77ebb9c4da0
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/gzip@1.13-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: apt
+
+PackageName: apt
+SPDXID: SPDXRef-Package-25bda7bece7f09bd
+PackageVersion: 3.0.3
+PackageSupplier: Organization: APT Development Team <deity@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: apt 3.0.3
+PackageLicenseConcluded: GPL-2.0-or-later AND curl AND BSD-3-Clause AND MIT AND GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND curl AND BSD-3-Clause AND MIT AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/apt@3.0.3?arch=amd64&distro=debian-13.7
+
+##### Package: zlib1g
+
+PackageName: zlib1g
+SPDXID: SPDXRef-Package-27af44b8d88e1bb
+PackageVersion: 1:1.3.dfsg+really1.3.1-1+b1
+PackageSupplier: Organization: Mark Brown <broonie@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: zlib 1:1.3.dfsg+really1.3.1-1
+PackageLicenseConcluded: Zlib
+PackageLicenseDeclared: Zlib
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/zlib1g@1.3.dfsg%2Breally1.3.1-1%2Bb1?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: packaging
+
+PackageName: packaging
+SPDXID: SPDXRef-Package-28192ebd46aa8af0
+PackageVersion: 26.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 0430c060e8591e63fbe5ede2c7d461c14cd15371
+PackageLicenseConcluded: Apache-2.0 OR BSD-2-Clause
+PackageLicenseDeclared: Apache-2.0 OR BSD-2-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/packaging@26.3
+
+##### Package: click
+
+PackageName: click
+SPDXID: SPDXRef-Package-2859f50f4d6c69c0
+PackageVersion: 8.5.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 83e66bfc9f03be4eabb62edd4c4538926976aebd
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/click@8.5.0
+
+##### Package: tomlkit
+
+PackageName: tomlkit
+SPDXID: SPDXRef-Package-2aa8a6d490d6ddd1
+PackageVersion: 0.15.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 96338c24b81a87207cb11a80818d0ac51f73401e
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomlkit@0.15.1
+
+##### Package: astroid
+
+PackageName: astroid
+SPDXID: SPDXRef-Package-2c3acac192b31102
+PackageVersion: 4.3.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: f1ba9adf87ba43167f9cd10962d8142681fc75dc
+PackageLicenseConcluded: LGPL-2.1-or-later
+PackageLicenseDeclared: LGPL-2.1-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/astroid@4.3.4
+
+##### Package: base-passwd
+
+PackageName: base-passwd
+SPDXID: SPDXRef-Package-2df479c89a5c3a4e
+PackageVersion: 3.6.7
+PackageSupplier: Organization: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: base-passwd 3.6.7
+PackageLicenseConcluded: GPL-2.0-only AND LicenseRef-abb60753a4b5686d
+PackageLicenseDeclared: GPL-2.0-only AND LicenseRef-abb60753a4b5686d
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/base-passwd@3.6.7?arch=amd64&distro=debian-13.7
+
+##### Package: python-dotenv
+
+PackageName: python-dotenv
+SPDXID: SPDXRef-Package-2f0448a72fc81008
+PackageVersion: 1.2.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 8799a419034d34711c3e57cc61fb579784aafac7
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/python-dotenv@1.2.4
+
+##### Package: passwd
+
+PackageName: passwd
+SPDXID: SPDXRef-Package-3105a9b96af38412
+PackageVersion: 1:4.17.4-2
+PackageSupplier: Organization: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: shadow 1:4.17.4-2
+PackageLicenseConcluded: BSD-3-Clause AND GPL-1.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-3-Clause AND GPL-1.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/passwd@4.17.4-2?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: init-system-helpers
+
+PackageName: init-system-helpers
+SPDXID: SPDXRef-Package-31f14dc23524979a
+PackageVersion: 1.69~deb13u1
+PackageSupplier: Organization: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: init-system-helpers 1.69~deb13u1
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/init-system-helpers@1.69~deb13u1?arch=all&distro=debian-13.7
+
+##### Package: distro
+
+PackageName: distro
+SPDXID: SPDXRef-Package-3449008bbaa55402
+PackageVersion: 1.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/distro@1.9.0
+
+##### Package: urllib3
+
+PackageName: urllib3
+SPDXID: SPDXRef-Package-34d494d1cc63f1db
+PackageVersion: 2.7.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/urllib3@2.7.0
+
+##### Package: distro
+
+PackageName: distro
+SPDXID: SPDXRef-Package-34ee2895526f6f99
+PackageVersion: 1.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/distro@1.9.0
+
+##### Package: readline-common
+
+PackageName: readline-common
+SPDXID: SPDXRef-Package-355c65090a68f1e6
+PackageVersion: 8.2-6
+PackageSupplier: Organization: Matthias Klose <doko@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: readline 8.2-6
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/readline-common@8.2-6?arch=all&distro=debian-13.7
+
+##### Package: libsepol2
+
+PackageName: libsepol2
+SPDXID: SPDXRef-Package-35fbcdec92b2a22b
+PackageVersion: 3.8.1-1
+PackageSupplier: Organization: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libsepol 3.8.1-1
+PackageLicenseConcluded: LGPL-2.1-or-later AND LGPL-2.1-only AND Zlib AND GPL-2.0-only AND GPL-2.0-or-later
+PackageLicenseDeclared: LGPL-2.1-or-later AND LGPL-2.1-only AND Zlib AND GPL-2.0-only AND GPL-2.0-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsepol2@3.8.1-1?arch=amd64&distro=debian-13.7
+
+##### Package: dill
+
+PackageName: dill
+SPDXID: SPDXRef-Package-36279618467024bc
+PackageVersion: 0.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: b3b55bbb43638debbd9f1982d5f9f106200f1252
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/dill@0.4.1
+
+##### Package: findutils
+
+PackageName: findutils
+SPDXID: SPDXRef-Package-38286d01027753e7
+PackageVersion: 4.10.0-3
+PackageSupplier: Organization: Andreas Metzler <ametzler@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: findutils 4.10.0-3
+PackageLicenseConcluded: GFDL-1.3-no-invariants-or-later AND GPL-3.0-or-later AND FSFAP AND LicenseRef-15e6981ccfded7c7 AND LicenseRef-d18a04e4feb46ca4 AND FSFULLR AND GPL-2.0-or-later AND X11 AND LicenseRef-abb60753a4b5686d AND LGPL-2.1-or-later AND LicenseRef-ce67d673d70dc9d2 AND LGPL-2.0-or-later AND LGPL-3.0-or-later AND BSD-3-Clause AND LicenseRef-e2887b35a5eba0d0 AND LGPL-3.0-only AND ISC AND GFDL-1.3-only AND GPL-2.0-only AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only
+PackageLicenseDeclared: GFDL-1.3-no-invariants-or-later AND GPL-3.0-or-later AND FSFAP AND LicenseRef-15e6981ccfded7c7 AND LicenseRef-d18a04e4feb46ca4 AND FSFULLR AND GPL-2.0-or-later AND X11 AND LicenseRef-abb60753a4b5686d AND LGPL-2.1-or-later AND LicenseRef-ce67d673d70dc9d2 AND LGPL-2.0-or-later AND LGPL-3.0-or-later AND BSD-3-Clause AND LicenseRef-e2887b35a5eba0d0 AND LGPL-3.0-only AND ISC AND GFDL-1.3-only AND GPL-2.0-only AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/findutils@4.10.0-3?arch=amd64&distro=debian-13.7
+
+##### Package: dash
+
+PackageName: dash
+SPDXID: SPDXRef-Package-3a79e3f008bc8347
+PackageVersion: 0.5.12-12
+PackageSupplier: Organization: Andrej Shadura <andrewsh@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: dash 0.5.12-12
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-3-Clause AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/dash@0.5.12-12?arch=amd64&distro=debian-13.7
+
+##### Package: libpcre2-8-0
+
+PackageName: libpcre2-8-0
+SPDXID: SPDXRef-Package-3d122cd0d173138f
+PackageVersion: 10.46-1~deb13u3
+PackageSupplier: Organization: Matthew Vernon <matthew@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: pcre2 10.46-1~deb13u3
+PackageLicenseConcluded: LicenseRef-efa4171bc0cae787 AND BSD-3-Clause AND X11 AND BSD-2-Clause AND LicenseRef-abb60753a4b5686d
+PackageLicenseDeclared: LicenseRef-efa4171bc0cae787 AND BSD-3-Clause AND X11 AND BSD-2-Clause AND LicenseRef-abb60753a4b5686d
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpcre2-8-0@10.46-1~deb13u3?arch=amd64&distro=debian-13.7
+
+##### Package: pydantic_core
+
+PackageName: pydantic_core
+SPDXID: SPDXRef-Package-3e5cf4660e1f18da
+PackageVersion: 2.50.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 40682a94c6f46bc0e569f18b406ac97871ba53e5
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pydantic-core@2.50.1
+
+##### Package: pyproject-hooks
+
+PackageName: pyproject-hooks
+SPDXID: SPDXRef-Package-3ebf8eff28456a3f
+PackageVersion: 1.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyproject-hooks@1.2.0
+
+##### Package: libbz2-1.0
+
+PackageName: libbz2-1.0
+SPDXID: SPDXRef-Package-3f6ac7edccf40b02
+PackageVersion: 1.0.8-6
+PackageSupplier: Organization: Anibal Monsalve Salazar <anibal@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: bzip2 1.0.8-6
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-only
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libbz2-1.0@1.0.8-6?arch=amd64&distro=debian-13.7
+
+##### Package: mount
+
+PackageName: mount
+SPDXID: SPDXRef-Package-43a39942cbc6f728
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/mount@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: login
+
+PackageName: login
+SPDXID: SPDXRef-Package-449b89ee050448c2
+PackageVersion: 1:4.16.0-2+really2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/login@4.16.0-2%2Breally2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: libsmartcols1
+
+PackageName: libsmartcols1
+SPDXID: SPDXRef-Package-464d4956ed182b47
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsmartcols1@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: debconf
+
+PackageName: debconf
+SPDXID: SPDXRef-Package-46955b8793b13619
+PackageVersion: 1.5.91
+PackageSupplier: Organization: Debconf Developers <debconf-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: debconf 1.5.91
+PackageLicenseConcluded: BSD-2-Clause
+PackageLicenseDeclared: BSD-2-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debconf@1.5.91?arch=all&distro=debian-13.7
+
+##### Package: pyproject-hooks
+
+PackageName: pyproject-hooks
+SPDXID: SPDXRef-Package-48916ff9f586f6dc
+PackageVersion: 1.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyproject-hooks@1.2.0
+
+##### Package: libgmp10
+
+PackageName: libgmp10
+SPDXID: SPDXRef-Package-4bf7e2c26d29b75d
+PackageVersion: 2:6.3.0+dfsg-3
+PackageSupplier: Organization: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gmp 2:6.3.0+dfsg-3
+PackageLicenseConcluded: GPL-2.0-or-later AND LGPL-3.0-or-later AND GPL-3.0-or-later AND LicenseRef-4f0e9e13bc07dfe0 AND GPL-2.0-only AND GPL-3.0-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND LGPL-3.0-or-later AND GPL-3.0-or-later AND LicenseRef-4f0e9e13bc07dfe0 AND GPL-2.0-only AND GPL-3.0-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgmp10@6.3.0%2Bdfsg-3?arch=amd64&distro=debian-13.7&epoch=2
+
+##### Package: pylint
+
+PackageName: pylint
+SPDXID: SPDXRef-Package-4c8eb6c0317d9479
+PackageVersion: 4.1.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: ff54c27ec87489d46b0427e2630b65e5cfe2d310
+PackageLicenseConcluded: GPL-2.0-or-later
+PackageLicenseDeclared: GPL-2.0-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pylint@4.1.3
+
+##### Package: rich
+
+PackageName: rich
+SPDXID: SPDXRef-Package-4ca249071b4a1faf
+PackageVersion: 14.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/rich@14.2.0
+
+##### Package: ncurses-bin
+
+PackageName: ncurses-bin
+SPDXID: SPDXRef-Package-4d1923505189794c
+PackageVersion: 6.5+20250216-2
+PackageSupplier: Organization: Ncurses Maintainers <ncurses@packages.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: ncurses 6.5+20250216-2
+PackageLicenseConcluded: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+PackageLicenseDeclared: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/ncurses-bin@6.5%2B20250216-2?arch=amd64&distro=debian-13.7
+
+##### Package: tomli-w
+
+PackageName: tomli-w
+SPDXID: SPDXRef-Package-4d898585fbfe1d64
+PackageVersion: 1.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli-w@1.2.0
+
+##### Package: urllib3
+
+PackageName: urllib3
+SPDXID: SPDXRef-Package-4f9d730c65eb3a9e
+PackageVersion: 2.7.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/urllib3@2.7.0
+
+##### Package: annotated-types
+
+PackageName: annotated-types
+SPDXID: SPDXRef-Package-5018675c625a3fad
+PackageVersion: 0.8.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: eccf1e5c5ee7c001a274a66fc1d3b2b6ba4eb5b5
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/annotated-types@0.8.0
+
+##### Package: bsdutils
+
+PackageName: bsdutils
+SPDXID: SPDXRef-Package-50c1c05dd0e78274
+PackageVersion: 1:2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/bsdutils@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: tomli
+
+PackageName: tomli
+SPDXID: SPDXRef-Package-50d4a847156502d6
+PackageVersion: 2.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli@2.4.1
+
+##### Package: coverage
+
+PackageName: coverage
+SPDXID: SPDXRef-Package-541dc0e3260600ab
+PackageVersion: 7.16.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 65fdc3fb10c84199873ce8fbce590c503057d538
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/coverage@7.16.2
+
+##### Package: libcrypt1
+
+PackageName: libcrypt1
+SPDXID: SPDXRef-Package-565f4bb0c73047f6
+PackageVersion: 1:4.4.38-1
+PackageSupplier: Organization: Marco d'Itri <md@linux.it>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libxcrypt 1:4.4.38-1
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcrypt1@4.4.38-1?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: libcap2
+
+PackageName: libcap2
+SPDXID: SPDXRef-Package-569bf496927d3c4
+PackageVersion: 1:2.75-10+deb13u1+b3
+PackageSupplier: Organization: Christian Kastner <ckk@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libcap2 1:2.75-10+deb13u1
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-only AND GPL-2.0-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcap2@2.75-10%2Bdeb13u1%2Bb3?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: msgpack
+
+PackageName: msgpack
+SPDXID: SPDXRef-Package-57db87940fd60b7a
+PackageVersion: 1.1.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/msgpack@1.1.2
+
+##### Package: libseccomp2
+
+PackageName: libseccomp2
+SPDXID: SPDXRef-Package-5873910d97ffe7a3
+PackageVersion: 2.6.0-2
+PackageSupplier: Organization: Kees Cook <kees@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libseccomp 2.6.0-2
+PackageLicenseConcluded: LGPL-2.1-only
+PackageLicenseDeclared: LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libseccomp2@2.6.0-2?arch=amd64&distro=debian-13.7
+
+##### Package: libblkid1
+
+PackageName: libblkid1
+SPDXID: SPDXRef-Package-588a1bbeb9c9ecdb
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libblkid1@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: typing_extensions
+
+PackageName: typing_extensions
+SPDXID: SPDXRef-Package-59f2b9acea6f68c8
+PackageVersion: 4.16.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 9b5d5737e3f4d7438a94c9363ab7270bc9be9931
+PackageLicenseConcluded: PSF-2.0
+PackageLicenseDeclared: PSF-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/typing-extensions@4.16.0
+
+##### Package: msgpack
+
+PackageName: msgpack
+SPDXID: SPDXRef-Package-5d28d7c8abdad397
+PackageVersion: 1.1.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/msgpack@1.1.2
+
+##### Package: libmd0
+
+PackageName: libmd0
+SPDXID: SPDXRef-Package-5d8db2f85415d8d1
+PackageVersion: 1.1.0-2+b1
+PackageSupplier: Organization: Guillem Jover <guillem@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libmd 1.1.0-2
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-e92018f75ad73ea6 AND BSD-2-Clause AND BSD-2-Clause-NetBSD AND ISC AND Beerware AND LicenseRef-54581981ae1a2a3b AND LicenseRef-60502d325d1d92ff AND LicenseRef-74962231009a4ef
+PackageLicenseDeclared: BSD-3-Clause AND LicenseRef-e92018f75ad73ea6 AND BSD-2-Clause AND BSD-2-Clause-NetBSD AND ISC AND Beerware AND LicenseRef-54581981ae1a2a3b AND LicenseRef-60502d325d1d92ff AND LicenseRef-74962231009a4ef
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libmd0@1.1.0-2%2Bb1?arch=amd64&distro=debian-13.7
+
+##### Package: libpam-runtime
+
+PackageName: libpam-runtime
+SPDXID: SPDXRef-Package-6250211358a4e1e3
+PackageVersion: 1.7.0-5
+PackageSupplier: Organization: Sam Hartman <hartmans@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: pam 1.7.0-5
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-runtime@1.7.0-5?arch=all&distro=debian-13.7
+
+##### Package: libcap-ng0
+
+PackageName: libcap-ng0
+SPDXID: SPDXRef-Package-63168f15ee03e63c
+PackageVersion: 0.8.5-4+b1
+PackageSupplier: Organization: Håvard F. Aasen <havard.f.aasen@pfft.no>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libcap-ng 0.8.5-4
+PackageLicenseConcluded: LGPL-2.1-or-later AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.1-only AND GPL-2.0-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND GPL-2.0-or-later AND GPL-3.0-only AND LGPL-2.1-only AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libcap-ng0@0.8.5-4%2Bb1?arch=amd64&distro=debian-13.7
+
+##### Package: idna
+
+PackageName: idna
+SPDXID: SPDXRef-Package-64e666f931efda92
+PackageVersion: 3.18
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/idna@3.18
+
+##### Package: platformdirs
+
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-65699b2555a4600c
+PackageVersion: 4.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: bdbea8e44e21eb42de815df0cb04f5a4121944bf
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/platformdirs@4.4.0
+
+##### Package: libxxhash0
+
+PackageName: libxxhash0
+SPDXID: SPDXRef-Package-687891a246d17c2d
+PackageVersion: 0.8.3-2
+PackageSupplier: Organization: Josue Ortega <josue@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: xxhash 0.8.3-2
+PackageLicenseConcluded: BSD-2-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-2-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libxxhash0@0.8.3-2?arch=amd64&distro=debian-13.7
+
+##### Package: idna
+
+PackageName: idna
+SPDXID: SPDXRef-Package-6a19b39b5e9b4798
+PackageVersion: 3.18
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/idna@3.18
+
+##### Package: mawk
+
+PackageName: mawk
+SPDXID: SPDXRef-Package-6efad17b6faf775
+PackageVersion: 1.3.4.20250131-1
+PackageSupplier: Organization: Boyuan Yang <byang@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: mawk 1.3.4.20250131-1
+PackageLicenseConcluded: GPL-2.0-only AND X11 AND CC-BY-3.0
+PackageLicenseDeclared: GPL-2.0-only AND X11 AND CC-BY-3.0
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/mawk@1.3.4.20250131-1?arch=amd64&distro=debian-13.7
+
+##### Package: sqv
+
+PackageName: sqv
+SPDXID: SPDXRef-Package-6f31e97527f38675
+PackageVersion: 1.3.0-3+b2
+PackageSupplier: Organization: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: rust-sequoia-sqv 1.3.0-3
+PackageLicenseConcluded: LGPL-2.0-or-later AND LGPL-2.0-only
+PackageLicenseDeclared: LGPL-2.0-or-later AND LGPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/sqv@1.3.0-3%2Bb2?arch=amd64&distro=debian-13.7
+
+##### Package: isort
+
+PackageName: isort
+SPDXID: SPDXRef-Package-704543293e5dc3eb
+PackageVersion: 9.0.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 71a9c5701410fdb0c9c771d17c529f7720de10c9
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/isort@9.0.2
+
+##### Package: certifi
+
+PackageName: certifi
+SPDXID: SPDXRef-Package-70c4722d55278326
+PackageVersion: 2026.6.17
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/certifi@2026.6.17
+
+##### Package: libacl1
+
+PackageName: libacl1
+SPDXID: SPDXRef-Package-70dd61ba8c7b5294
+PackageVersion: 2.3.2-2+b1
+PackageSupplier: Organization: Guillem Jover <guillem@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: acl 2.3.2-2
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libacl1@2.3.2-2%2Bb1?arch=amd64&distro=debian-13.7
+
+##### Package: mccabe
+
+PackageName: mccabe
+SPDXID: SPDXRef-Package-73871d779a4e58d7
+PackageVersion: 0.7.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 65aaa463b36fcf37bf744580f9590838dbaa115c
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/mccabe@0.7.0
+
+##### Package: libreadline8t64
+
+PackageName: libreadline8t64
+SPDXID: SPDXRef-Package-73900ad2ce17bd5b
+PackageVersion: 8.2-6
+PackageSupplier: Organization: Matthias Klose <doko@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: readline 8.2-6
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-or-later AND LicenseRef-8ca8070d1298fe8b
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libreadline8t64@8.2-6?arch=amd64&distro=debian-13.7
+
+##### Package: libffi8
+
+PackageName: libffi8
+SPDXID: SPDXRef-Package-761dff62bfad67eb
+PackageVersion: 3.4.8-2
+PackageSupplier: Organization: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libffi 3.4.8-2
+PackageLicenseConcluded: MIT AND X11 AND GPL-2.0-or-later AND GPL-3.0-or-later AND MPL-1.1 AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d
+PackageLicenseDeclared: MIT AND X11 AND GPL-2.0-or-later AND GPL-3.0-or-later AND MPL-1.1 AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libffi8@3.4.8-2?arch=amd64&distro=debian-13.7
+
+##### Package: perl-base
+
+PackageName: perl-base
+SPDXID: SPDXRef-Package-795913f23f76a186
+PackageVersion: 5.40.1-6+deb13u1
+PackageSupplier: Organization: Niko Tyni <ntyni@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: perl 5.40.1-6+deb13u1
+PackageLicenseConcluded: GPL-1.0-or-later AND Artistic-2.0 AND MIT AND LicenseRef-48da3e37920b2f31 AND LicenseRef-f26d295b2031843 AND LicenseRef-804bb003c6a2e5ee AND LicenseRef-5c04fedb1301880a AND Zlib AND GPL-2.0-or-later AND FSFAP AND LicenseRef-6ded1dc35ad9b65d AND CC0-1.0 AND LicenseRef-a40e208a4885e027 AND LicenseRef-72d43f152d6ff8fe AND LicenseRef-5dafbc33c54f5dc1 AND BSD-3-Clause AND LicenseRef-c580c814dfe0f68d AND LicenseRef-70f62aeb66eefed5 AND Artistic-dist AND LGPL-2.1-only AND GPL-1.0-only AND GPL-2.0-only AND LicenseRef-a7fc6a281f31c55f
+PackageLicenseDeclared: GPL-1.0-or-later AND Artistic-2.0 AND MIT AND LicenseRef-48da3e37920b2f31 AND LicenseRef-f26d295b2031843 AND LicenseRef-804bb003c6a2e5ee AND LicenseRef-5c04fedb1301880a AND Zlib AND GPL-2.0-or-later AND FSFAP AND LicenseRef-6ded1dc35ad9b65d AND CC0-1.0 AND LicenseRef-a40e208a4885e027 AND LicenseRef-72d43f152d6ff8fe AND LicenseRef-5dafbc33c54f5dc1 AND BSD-3-Clause AND LicenseRef-c580c814dfe0f68d AND LicenseRef-70f62aeb66eefed5 AND Artistic-dist AND LGPL-2.1-only AND GPL-1.0-only AND GPL-2.0-only AND LicenseRef-a7fc6a281f31c55f
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/perl-base@5.40.1-6%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: pip
+
+PackageName: pip
+SPDXID: SPDXRef-Package-7b2b879cc916a167
+PackageVersion: 26.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: c9ef7e144606f26507e4ea27c5c3f010423a8acf
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pip@26.2.1
+
+##### Package: tomli-w
+
+PackageName: tomli-w
+SPDXID: SPDXRef-Package-7c31fd55a4baad53
+PackageVersion: 1.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli-w@1.2.0
+
+##### Package: websockets
+
+PackageName: websockets
+SPDXID: SPDXRef-Package-7d6acf76e4cd768b
+PackageVersion: 17.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: f494de4d29cf4891fca8ed25d1ad2fbceb5b5854
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/websockets@17.2
+
+##### Package: libc6
+
+PackageName: libc6
+SPDXID: SPDXRef-Package-7d7365e0977e4df6
+PackageVersion: 2.41-12+deb13u4
+PackageSupplier: Organization: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: glibc 2.41-12+deb13u4
+PackageLicenseConcluded: LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libc6@2.41-12%2Bdeb13u4?arch=amd64&distro=debian-13.7
+
+##### Package: setuptools
+
+PackageName: setuptools
+SPDXID: SPDXRef-Package-7d74f800047a89f1
+PackageVersion: 70.3.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/setuptools@70.3.0
+
+##### Package: tar
+
+PackageName: tar
+SPDXID: SPDXRef-Package-7e5d7e0036b61e6
+PackageVersion: 1.35+dfsg-3.1
+PackageSupplier: Organization: Janos Lenart <ocsi@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: tar 1.35+dfsg-3.1
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LGPL-2.1-or-later AND LGPL-2.1-only AND LGPL-3.0-or-later AND LGPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LGPL-2.1-or-later AND LGPL-2.1-only AND LGPL-3.0-or-later AND LGPL-3.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/tar@1.35%2Bdfsg-3.1?arch=amd64&distro=debian-13.7
+
+##### Package: more-itertools
+
+PackageName: more-itertools
+SPDXID: SPDXRef-Package-7e94336f0c87d817
+PackageVersion: 10.8.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 3c3650c4b42cfd16c49e5c4764afb6f22a24ec29
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/more-itertools@10.8.0
+
+##### Package: pydantic-settings
+
+PackageName: pydantic-settings
+SPDXID: SPDXRef-Package-7fbcfcea08add25a
+PackageVersion: 2.15.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 67a2b8c2a0709ec65e69e8f388620c3a05e62f42
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pydantic-settings@2.15.0
+
+##### Package: libncursesw6
+
+PackageName: libncursesw6
+SPDXID: SPDXRef-Package-81161e97485e16c6
+PackageVersion: 6.5+20250216-2
+PackageSupplier: Organization: Ncurses Maintainers <ncurses@packages.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: ncurses 6.5+20250216-2
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libncursesw6@6.5%2B20250216-2?arch=amd64&distro=debian-13.7
+
+##### Package: libsqlite3-0
+
+PackageName: libsqlite3-0
+SPDXID: SPDXRef-Package-83091b7b6549130
+PackageVersion: 3.46.1-7+deb13u2
+PackageSupplier: Organization: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: sqlite3 3.46.1-7+deb13u2
+PackageLicenseConcluded: LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsqlite3-0@3.46.1-7%2Bdeb13u2?arch=amd64&distro=debian-13.7
+
+##### Package: dpkg
+
+PackageName: dpkg
+SPDXID: SPDXRef-Package-86a2af3009e111b3
+PackageVersion: 1.22.22
+PackageSupplier: Organization: Dpkg Developers <debian-dpkg@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: dpkg 1.22.22
+PackageLicenseConcluded: GPL-2.0-or-later AND LicenseRef-3684da1e0c7ec660 AND GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND LicenseRef-3684da1e0c7ec660 AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/dpkg@1.22.22?arch=amd64&distro=debian-13.7
+
+##### Package: coreutils
+
+PackageName: coreutils
+SPDXID: SPDXRef-Package-87ce959afb4ecb39
+PackageVersion: 9.7-3
+PackageSupplier: Organization: Michael Stone <mstone@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: coreutils 9.7-3
+PackageLicenseConcluded: GPL-3.0-or-later AND BSD-4-Clause-UC AND GPL-3.0-only AND ISC AND FSFULLR AND GFDL-1.3-no-invariants-only AND GFDL-1.3-only
+PackageLicenseDeclared: GPL-3.0-or-later AND BSD-4-Clause-UC AND GPL-3.0-only AND ISC AND FSFULLR AND GFDL-1.3-no-invariants-only AND GFDL-1.3-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/coreutils@9.7-3?arch=amd64&distro=debian-13.7
+
+##### Package: libdebconfclient0
+
+PackageName: libdebconfclient0
+SPDXID: SPDXRef-Package-895fa2793eae577
+PackageVersion: 0.280
+PackageSupplier: Organization: Debian Install System Team <debian-boot@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: cdebconf 0.280
+PackageLicenseConcluded: BSD-2-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-2-Clause AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libdebconfclient0@0.280?arch=amd64&distro=debian-13.7
+
+##### Package: wheel
+
+PackageName: wheel
+SPDXID: SPDXRef-Package-8a8682ed2cd7f449
+PackageVersion: 0.48.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 388982ee93726b1ad768c4154fba50be5d9c950e
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/wheel@0.48.0
+
+##### Package: truststore
+
+PackageName: truststore
+SPDXID: SPDXRef-Package-8aa623654b3c31b0
+PackageVersion: 0.10.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/truststore@0.10.4
+
+##### Package: openssl-provider-legacy
+
+PackageName: openssl-provider-legacy
+SPDXID: SPDXRef-Package-8b45d2bbdc625f7f
+PackageVersion: 3.5.7-1~deb13u3
+PackageSupplier: Organization: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: openssl 3.5.7-1~deb13u3
+PackageLicenseConcluded: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+PackageLicenseDeclared: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/openssl-provider-legacy@3.5.7-1~deb13u3?arch=amd64&distro=debian-13.7
+
+##### Package: libsystemd0
+
+PackageName: libsystemd0
+SPDXID: SPDXRef-Package-8b8027cae7be7ba0
+PackageVersion: 257.13-1~deb13u1
+PackageSupplier: Organization: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: systemd 257.13-1~deb13u1
+PackageLicenseConcluded: LGPL-2.1-or-later AND CC0-1.0 AND LicenseRef-bf29d4370860637d AND MIT AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.1-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND CC0-1.0 AND LicenseRef-bf29d4370860637d AND MIT AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsystemd0@257.13-1~deb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: platformdirs
+
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-8c855caaa3b32c63
+PackageVersion: 4.10.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/platformdirs@4.10.0
+
+##### Package: packaging
+
+PackageName: packaging
+SPDXID: SPDXRef-Package-8c87b0ac40ca1d34
+PackageVersion: 26.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/packaging@26.2
+
+##### Package: jaraco.context
+
+PackageName: jaraco.context
+SPDXID: SPDXRef-Package-8ce5bdf400670cc4
+PackageVersion: 6.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 2d100617106436bb1a89293d84b1797798f610d7
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.context@6.1.0
+
+##### Package: libbsd0
+
+PackageName: libbsd0
+SPDXID: SPDXRef-Package-8db81ccac33dfa4f
+PackageVersion: 0.12.2-2
+PackageSupplier: Organization: Guillem Jover <guillem@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libbsd 0.12.2-2
+PackageLicenseConcluded: BSD-3-Clause AND LicenseRef-b5bd2b50139ca836 AND BSD-2-Clause-NetBSD AND LicenseRef-c35881024c8fc09f AND LicenseRef-a270d1754e380e49 AND LicenseRef-5cf40fe1fa67583b AND BSD-2-Clause AND LicenseRef-2efc8a1f8553da49 AND LicenseRef-9d11dc0fc647162e AND ISC AND LicenseRef-961e5c4a0f36800e AND MIT AND LicenseRef-abb60753a4b5686d AND Beerware
+PackageLicenseDeclared: BSD-3-Clause AND LicenseRef-b5bd2b50139ca836 AND BSD-2-Clause-NetBSD AND LicenseRef-c35881024c8fc09f AND LicenseRef-a270d1754e380e49 AND LicenseRef-5cf40fe1fa67583b AND BSD-2-Clause AND LicenseRef-2efc8a1f8553da49 AND LicenseRef-9d11dc0fc647162e AND ISC AND LicenseRef-961e5c4a0f36800e AND MIT AND LicenseRef-abb60753a4b5686d AND Beerware
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libbsd0@0.12.2-2?arch=amd64&distro=debian-13.7
+
+##### Package: libssl3t64
+
+PackageName: libssl3t64
+SPDXID: SPDXRef-Package-8e0d0d69282528e9
+PackageVersion: 3.5.7-1~deb13u3
+PackageSupplier: Organization: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: openssl 3.5.7-1~deb13u3
+PackageLicenseConcluded: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+PackageLicenseDeclared: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libssl3t64@3.5.7-1~deb13u3?arch=amd64&distro=debian-13.7
+
+##### Package: mypy_extensions
+
+PackageName: mypy_extensions
+SPDXID: SPDXRef-Package-8e8ba941da6f58c9
+PackageVersion: 1.1.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: f66c46433e54a7ea456f1689e63a013b3bd20217
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/mypy-extensions@1.1.0
+
+##### Package: pytest
+
+PackageName: pytest
+SPDXID: SPDXRef-Package-8f3da65ae44b5b1
+PackageVersion: 9.1.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 4f06e953f8cd8c557b410bdd981dfb0f92d4145e
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytest@9.1.1
+
+##### Package: libudev1
+
+PackageName: libudev1
+SPDXID: SPDXRef-Package-90951d2ae5849694
+PackageVersion: 257.13-1~deb13u1
+PackageSupplier: Organization: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: systemd 257.13-1~deb13u1
+PackageLicenseConcluded: LGPL-2.1-or-later AND CC0-1.0 AND LicenseRef-bf29d4370860637d AND MIT AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.1-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND CC0-1.0 AND LicenseRef-bf29d4370860637d AND MIT AND LicenseRef-abb60753a4b5686d AND GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libudev1@257.13-1~deb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: pytokens
+
+PackageName: pytokens
+SPDXID: SPDXRef-Package-92201af528fcc760
+PackageVersion: 0.4.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 3f045a42ed6256f62cdbdeb8005b5da606b66b1c
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytokens@0.4.1
+
+##### Package: libc-bin
+
+PackageName: libc-bin
+SPDXID: SPDXRef-Package-92927b181caad39f
+PackageVersion: 2.41-12+deb13u4
+PackageSupplier: Organization: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: glibc 2.41-12+deb13u4
+PackageLicenseConcluded: LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND LGPL-2.0-or-later AND LicenseRef-c6b2410a5c598c88 AND LGPL-3.0-or-later AND GPL-2.0-or-later AND LicenseRef-423408a015e1a81c AND GPL-2.0-only AND GPL-3.0-or-later AND FSFAP AND LicenseRef-c182a7dc004f285e AND LicenseRef-e81f367b8432b910 AND LicenseRef-74776a0cc7195ca2 AND LicenseRef-dc8726d2de821f66 AND LicenseRef-d6f9a4de9ffae498 AND LicenseRef-3ba59e3587be17a6 AND Unicode-DFS-2016 AND BSL-1.0 AND SunPro AND LicenseRef-aece73c3fcfabe34 AND LicenseRef-9333c215157468c2 AND LicenseRef-1340db71a4796d76 AND BSD-2-Clause AND LicenseRef-a43625359a0b6781 AND LicenseRef-8bf7c6b30c74e012 AND LicenseRef-fb4f6ca6869659b AND ISC AND LicenseRef-1d467a358256effa AND LicenseRef-abb60753a4b5686d AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libc-bin@2.41-12%2Bdeb13u4?arch=amd64&distro=debian-13.7
+
+##### Package: iniconfig
+
+PackageName: iniconfig
+SPDXID: SPDXRef-Package-92df51599b4cdeb5
+PackageVersion: 2.3.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 81d86d4f3f05e258aec89cf6827c7d22ce8de126
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/iniconfig@2.3.1
+
+##### Package: login.defs
+
+PackageName: login.defs
+SPDXID: SPDXRef-Package-92e5e01a0de7dc99
+PackageVersion: 1:4.17.4-2
+PackageSupplier: Organization: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: shadow 1:4.17.4-2
+PackageLicenseConcluded: BSD-3-Clause AND GPL-1.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: BSD-3-Clause AND GPL-1.0-only AND GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/login.defs@4.17.4-2?arch=all&distro=debian-13.7&epoch=1
+
+##### Package: setuptools
+
+PackageName: setuptools
+SPDXID: SPDXRef-Package-932c9764f4731d8e
+PackageVersion: 70.3.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/setuptools@70.3.0
+
+##### Package: jaraco.functools
+
+PackageName: jaraco.functools
+SPDXID: SPDXRef-Package-9479a371c919c002
+PackageVersion: 4.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 1055c5e6b5ef22b4964999a8359ebd44668d6317
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/jaraco.functools@4.4.0
+
+##### Package: tomli
+
+PackageName: tomli
+SPDXID: SPDXRef-Package-956d4f2b215f9304
+PackageVersion: 2.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: f49662c1701e39ce74facb4478a0d3aef383409e
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/tomli@2.4.0
+
+##### Package: zipp
+
+PackageName: zipp
+SPDXID: SPDXRef-Package-9576c5cd92a7b4a7
+PackageVersion: 3.23.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: d147e80ad98668f22df8abd6baf76361d466edf9
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/zipp@3.23.0
+
+##### Package: util-linux
+
+PackageName: util-linux
+SPDXID: SPDXRef-Package-96d4119543907ea7
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/util-linux@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: resolvelib
+
+PackageName: resolvelib
+SPDXID: SPDXRef-Package-979d543378b9d0ca
+PackageVersion: 1.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/resolvelib@1.2.1
+
+##### Package: CacheControl
+
+PackageName: CacheControl
+SPDXID: SPDXRef-Package-98f185ec0527ad8b
+PackageVersion: 0.14.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/cachecontrol@0.14.4
+
+##### Package: libgcc-s1
+
+PackageName: libgcc-s1
+SPDXID: SPDXRef-Package-9981ca8176fbf5a
+PackageVersion: 14.2.0-19
+PackageSupplier: Organization: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gcc-14 14.2.0-19
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libgcc-s1@14.2.0-19?arch=amd64&distro=debian-13.7
+
+##### Package: certifi
+
+PackageName: certifi
+SPDXID: SPDXRef-Package-9a43f69ac6c8101f
+PackageVersion: 2026.6.17
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/certifi@2026.6.17
+
+##### Package: libsemanage-common
+
+PackageName: libsemanage-common
+SPDXID: SPDXRef-Package-9ad66b6f9fd6824e
+PackageVersion: 3.8.1-1
+PackageSupplier: Organization: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libsemanage 3.8.1-1
+PackageLicenseConcluded: LGPL-2.1-or-later AND LGPL-2.1-only AND GPL-2.0-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND LGPL-2.1-only AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsemanage-common@3.8.1-1?arch=all&distro=debian-13.7
+
+##### Package: debian-archive-keyring
+
+PackageName: debian-archive-keyring
+SPDXID: SPDXRef-Package-9adc6ed7c1ea7d6a
+PackageVersion: 2025.1
+PackageSupplier: Organization: Debian Release Team <packages@release.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: debian-archive-keyring 2025.1
+PackageLicenseConcluded: GPL-2.0-or-later
+PackageLicenseDeclared: GPL-2.0-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debian-archive-keyring@2025.1?arch=all&distro=debian-13.7
+
+##### Package: h11
+
+PackageName: h11
+SPDXID: SPDXRef-Package-9be6865652d8f76a
+PackageVersion: 0.16.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 1cc37082000ebc82707fbec38ad1bdaf08002e30
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/h11@0.16.0
+
+##### Package: platformdirs
+
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-9c911aca7056bbc1
+PackageVersion: 4.10.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/platformdirs@4.10.0
+
+##### Package: pip
+
+PackageName: pip
+SPDXID: SPDXRef-Package-9d968b70c115575b
+PackageVersion: 26.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: c9ef7e144606f26507e4ea27c5c3f010423a8acf
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pip@26.2.1
+
+##### Package: packaging
+
+PackageName: packaging
+SPDXID: SPDXRef-Package-9e39251475421e92
+PackageVersion: 26.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/packaging@26.2
+
+##### Package: CacheControl
+
+PackageName: CacheControl
+SPDXID: SPDXRef-Package-a03b7810c5533a2
+PackageVersion: 0.14.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/cachecontrol@0.14.4
+
+##### Package: libhogweed6t64
+
+PackageName: libhogweed6t64
+SPDXID: SPDXRef-Package-a12effa2a0ca9cde
+PackageVersion: 3.10.1-1
+PackageSupplier: Organization: Magnus Holmgren <holmgren@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: nettle 3.10.1-1
+PackageLicenseConcluded: LGPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.0-only AND MIT AND LicenseRef-97d647789566534c AND LicenseRef-abb60753a4b5686d AND GPL-2.0-only AND LicenseRef-4e0f044946686354
+PackageLicenseDeclared: LGPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.0-only AND MIT AND LicenseRef-97d647789566534c AND LicenseRef-abb60753a4b5686d AND GPL-2.0-only AND LicenseRef-4e0f044946686354
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libhogweed6t64@3.10.1-1?arch=amd64&distro=debian-13.7
+
+##### Package: rich
+
+PackageName: rich
+SPDXID: SPDXRef-Package-a15a7315440c478d
+PackageVersion: 14.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/rich@14.2.0
+
+##### Package: packaging
+
+PackageName: packaging
+SPDXID: SPDXRef-Package-a1c4cf9179d2aac
+PackageVersion: 26.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: ecc4cfe374e2560f92a2da7e83d5af88755d579a
+PackageLicenseConcluded: Apache-2.0 OR BSD-2-Clause
+PackageLicenseDeclared: Apache-2.0 OR BSD-2-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/packaging@26.0
+
+##### Package: uvicorn
+
+PackageName: uvicorn
+SPDXID: SPDXRef-Package-a49c0d12b3c94d5c
+PackageVersion: 0.54.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 8c49452e251039f6798d02ecd1c50addcde41356
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/uvicorn@0.54.0
+
+##### Package: libdb5.3t64
+
+PackageName: libdb5.3t64
+SPDXID: SPDXRef-Package-aef5fb9008a55309
+PackageVersion: 5.3.28+dfsg2-9
+PackageSupplier: Organization: Debian QA Group <packages@qa.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: db5.3 5.3.28+dfsg2-9
+PackageLicenseConcluded: Sleepycat AND BSD-3-Clause AND MS-PL AND GPL-2.0-or-later AND Artistic-2.0 AND X11 AND LicenseRef-f903241c457972c7 AND LicenseRef-a58a180f0b4def25 AND LicenseRef-d73b6710504f8977 AND GPL-3.0-only AND Zlib
+PackageLicenseDeclared: Sleepycat AND BSD-3-Clause AND MS-PL AND GPL-2.0-or-later AND Artistic-2.0 AND X11 AND LicenseRef-f903241c457972c7 AND LicenseRef-a58a180f0b4def25 AND LicenseRef-d73b6710504f8977 AND GPL-3.0-only AND Zlib
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libdb5.3t64@5.3.28%2Bdfsg2-9?arch=amd64&distro=debian-13.7
+
+##### Package: openssl
+
+PackageName: openssl
+SPDXID: SPDXRef-Package-b1b4f43159f150ff
+PackageVersion: 3.5.7-1~deb13u3
+PackageSupplier: Organization: Debian OpenSSL Team <pkg-openssl-devel@alioth-lists.debian.net>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: openssl 3.5.7-1~deb13u3
+PackageLicenseConcluded: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+PackageLicenseDeclared: Apache-2.0 AND Artistic-2.0 AND GPL-1.0-or-later AND GPL-1.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/openssl@3.5.7-1~deb13u3?arch=amd64&distro=debian-13.7
+
+##### Package: pluggy
+
+PackageName: pluggy
+SPDXID: SPDXRef-Package-b31712334c983ff0
+PackageVersion: 1.6.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 4bd174410226365cf5aab6b837ff032a0d3a6974
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pluggy@1.6.0
+
+##### Package: libattr1
+
+PackageName: libattr1
+SPDXID: SPDXRef-Package-b46fee5bc05b70c9
+PackageVersion: 1:2.5.2-3
+PackageSupplier: Organization: Guillem Jover <guillem@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: attr 1:2.5.2-3
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libattr1@2.5.2-3?arch=amd64&distro=debian-13.7&epoch=1
+
+##### Package: pydantic
+
+PackageName: pydantic
+SPDXID: SPDXRef-Package-b7d4fc3a874c703e
+PackageVersion: 2.14.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: ebb5c7a42a00c5b6370960c2c2df934a02553404
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pydantic@2.14.1
+
+##### Package: backports.tarfile
+
+PackageName: backports.tarfile
+SPDXID: SPDXRef-Package-b82b606965d1b794
+PackageVersion: 1.2.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 0a7daacb4eb53748625f28142bd1592e2ce97de3
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/backports.tarfile@1.2.0
+
+##### Package: distlib
+
+PackageName: distlib
+SPDXID: SPDXRef-Package-b8e362cff731ce23
+PackageVersion: 0.4.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/distlib@0.4.2
+
+##### Package: libuuid1
+
+PackageName: libuuid1
+SPDXID: SPDXRef-Package-bc3af863a965e46e
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libuuid1@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: bash
+
+PackageName: bash
+SPDXID: SPDXRef-Package-bc98987c942d9061
+PackageVersion: 5.2.37-2+b10
+PackageSupplier: Organization: Matthias Klose <doko@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: bash 5.2.37-2
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-only AND GFDL-1.3-only AND Latex2e AND BSD-4-Clause-UC AND MIT AND LicenseRef-7d439129f49f8b4c
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND GPL-2.0-or-later AND GPL-2.0-only AND GFDL-1.3-no-invariants-only AND GFDL-1.3-only AND Latex2e AND BSD-4-Clause-UC AND MIT AND LicenseRef-7d439129f49f8b4c
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/bash@5.2.37-2%2Bb10?arch=amd64&distro=debian-13.7
+
+##### Package: setuptools
+
+PackageName: setuptools
+SPDXID: SPDXRef-Package-bed8c1e3ce51ab01
+PackageVersion: 84.0.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 5ce995cc8b2b1449847ccff956c83a2f3f23e69c
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/setuptools@84.0.0
+
+##### Package: libtinfo6
+
+PackageName: libtinfo6
+SPDXID: SPDXRef-Package-c1b542410ec8c799
+PackageVersion: 6.5+20250216-2
+PackageSupplier: Organization: Ncurses Maintainers <ncurses@packages.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: ncurses 6.5+20250216-2
+PackageLicenseConcluded: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+PackageLicenseDeclared: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libtinfo6@6.5%2B20250216-2?arch=amd64&distro=debian-13.7
+
+##### Package: distlib
+
+PackageName: distlib
+SPDXID: SPDXRef-Package-c21ec38c89c0b3b8
+PackageVersion: 0.4.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/distlib@0.4.2
+
+##### Package: annotated-doc
+
+PackageName: annotated-doc
+SPDXID: SPDXRef-Package-c25ca437592e0f8
+PackageVersion: 0.0.5
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 0a542b43a90033fc795835d89da06b28af9651e1
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/annotated-doc@0.0.5
+
+##### Package: anyio
+
+PackageName: anyio
+SPDXID: SPDXRef-Package-c467535ae26352dc
+PackageVersion: 4.15.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 7cbea4e5826e3c80cef7c2c0764b329ec1d27807
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/anyio@4.15.1
+
+##### Package: libaudit-common
+
+PackageName: libaudit-common
+SPDXID: SPDXRef-Package-c4fa95184e867821
+PackageVersion: 1:4.0.2-2+deb13u1
+PackageSupplier: Organization: Laurent Bigonville <bigon@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: audit 1:4.0.2-2+deb13u1
+PackageLicenseConcluded: GPL-2.0-only AND LGPL-2.1-only AND GPL-1.0-only
+PackageLicenseDeclared: GPL-2.0-only AND LGPL-2.1-only AND GPL-1.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libaudit-common@4.0.2-2%2Bdeb13u1?arch=all&distro=debian-13.7&epoch=1
+
+##### Package: httptools
+
+PackageName: httptools
+SPDXID: SPDXRef-Package-c5fb3c336c37ff25
+PackageVersion: 0.9.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 7456537834a5488704a3e373a0865f84bebdba24
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/httptools@0.9.0
+
+##### Package: hostname
+
+PackageName: hostname
+SPDXID: SPDXRef-Package-c84b760bf071ee95
+PackageVersion: 3.25
+PackageSupplier: Organization: Michael Meskes <meskes@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: hostname 3.25
+PackageLicenseConcluded: GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/hostname@3.25?arch=amd64&distro=debian-13.7
+
+##### Package: importlib_metadata
+
+PackageName: importlib_metadata
+SPDXID: SPDXRef-Package-c96de39febdc1084
+PackageVersion: 8.7.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: b557039ac229e2733c6f4f16c511d5fe72605066
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/importlib-metadata@8.7.1
+
+##### Package: ncurses-base
+
+PackageName: ncurses-base
+SPDXID: SPDXRef-Package-cbc5d7f89ac8d35f
+PackageVersion: 6.5+20250216-2
+PackageSupplier: Organization: Ncurses Maintainers <ncurses@packages.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: ncurses 6.5+20250216-2
+PackageLicenseConcluded: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+PackageLicenseDeclared: LicenseRef-461e73656ab4d0 AND X11 AND BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/ncurses-base@6.5%2B20250216-2?arch=all&distro=debian-13.7
+
+##### Package: sed
+
+PackageName: sed
+SPDXID: SPDXRef-Package-cc24e60803cbc609
+PackageVersion: 4.9-2+deb13u1
+PackageSupplier: Organization: Clint Adams <clint@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: sed 4.9-2+deb13u1
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only AND X11 AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-only AND ISC AND BSD-4-Clause-UC AND LicenseRef-624b8f9a8d17a79d AND LicenseRef-48e0a17df621f443
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only AND X11 AND GFDL-1.3-no-invariants-or-later AND GFDL-1.3-only AND ISC AND BSD-4-Clause-UC AND LicenseRef-624b8f9a8d17a79d AND LicenseRef-48e0a17df621f443
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/sed@4.9-2%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: liblastlog2-2
+
+PackageName: liblastlog2-2
+SPDXID: SPDXRef-Package-cc68e9b59863d620
+PackageVersion: 2.41.5-0+deb13u1
+PackageSupplier: Organization: Chris Hofstaedtler <zeha@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: util-linux 2.41.5-0+deb13u1
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND GPL-3.0-or-later AND LGPL-2.1-or-later AND LicenseRef-abb60753a4b5686d AND BSD-4-Clause AND MIT AND ISC AND BSD-3-Clause AND LicenseRef-8a3f5fa45b1b1c21 AND LGPL-2.0-or-later AND BSD-2-Clause AND LGPL-3.0-or-later AND GPL-3.0-only AND LGPL-2.0-only AND LGPL-2.1-only AND LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/liblastlog2-2@2.41.5-0%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: liblz4-1
+
+PackageName: liblz4-1
+SPDXID: SPDXRef-Package-cc808b70fbc4b413
+PackageVersion: 1.10.0-4
+PackageSupplier: Organization: Nobuhiro Iwamatsu <iwamatsu@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: lz4 1.10.0-4
+PackageLicenseConcluded: GPL-2.0-or-later AND BSD-2-Clause AND GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND BSD-2-Clause AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/liblz4-1@1.10.0-4?arch=amd64&distro=debian-13.7
+
+##### Package: fastapi
+
+PackageName: fastapi
+SPDXID: SPDXRef-Package-cce1489042675a25
+PackageVersion: 0.143.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 062a075bcc6b9c0df107c599864f42bedb5f1ab9
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/fastapi@0.143.0
+
+##### Package: gcc-14-base
+
+PackageName: gcc-14-base
+SPDXID: SPDXRef-Package-cdd16daae47f197a
+PackageVersion: 14.2.0-19
+PackageSupplier: Organization: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: gcc-14 14.2.0-19
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-3.0-only AND GFDL-1.2-only AND Artistic-2.0 AND LGPL-2.0-or-later
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-3.0-only AND GFDL-1.2-only AND Artistic-2.0 AND LGPL-2.0-or-later
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/gcc-14-base@14.2.0-19?arch=amd64&distro=debian-13.7
+
+##### Package: libpam0g
+
+PackageName: libpam0g
+SPDXID: SPDXRef-Package-cf6be8f98b71e4d8
+PackageVersion: 1.7.0-5
+PackageSupplier: Organization: Sam Hartman <hartmans@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: pam 1.7.0-5
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam0g@1.7.0-5?arch=amd64&distro=debian-13.7
+
+##### Package: base-files
+
+PackageName: base-files
+SPDXID: SPDXRef-Package-d13130afa7f152db
+PackageVersion: 13.8+deb13u7
+PackageSupplier: Organization: Santiago Vila <sanvila@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: base-files 13.8+deb13u7
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-12c6299793cdf486
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-12c6299793cdf486
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/base-files@13.8%2Bdeb13u7?arch=amd64&distro=debian-13.7
+
+##### Package: libpam-modules-bin
+
+PackageName: libpam-modules-bin
+SPDXID: SPDXRef-Package-d32bb0166457223f
+PackageVersion: 1.7.0-5
+PackageSupplier: Organization: Sam Hartman <hartmans@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: pam 1.7.0-5
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-modules-bin@1.7.0-5?arch=amd64&distro=debian-13.7
+
+##### Package: opentelemetry-api
+
+PackageName: opentelemetry-api
+SPDXID: SPDXRef-Package-d366b04350665e76
+PackageVersion: 1.45.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 562f442e311132a5c0847143a618e70c8dddd3d2
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/opentelemetry-api@1.45.1
+
+##### Package: watchfiles
+
+PackageName: watchfiles
+SPDXID: SPDXRef-Package-d3df831160e0006b
+PackageVersion: 1.3.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 1896842a0c6b60d85c55370082f8ea8fefccf346
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/watchfiles@1.3.0
+
+##### Package: pygments
+
+PackageName: pygments
+SPDXID: SPDXRef-Package-d6ccf1967f1794d2
+PackageVersion: 2.20.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pygments@2.20.0
+
+##### Package: autocommand
+
+PackageName: autocommand
+SPDXID: SPDXRef-Package-d6e75c822b7ea589
+PackageVersion: 2.2.2
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 84aa154c92574af0f7e81512a00cf2f45791984e
+PackageLicenseConcluded: LGPL-3.0-only
+PackageLicenseDeclared: LGPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/autocommand@2.2.2
+
+##### Package: netbase
+
+PackageName: netbase
+SPDXID: SPDXRef-Package-d974b5f259cf5b09
+PackageVersion: 6.5
+PackageSupplier: Organization: Marco d'Itri <md@linux.it>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: netbase 6.5
+PackageLicenseConcluded: GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/netbase@6.5?arch=all&distro=debian-13.7
+
+##### Package: libnettle8t64
+
+PackageName: libnettle8t64
+SPDXID: SPDXRef-Package-da188e5221ef754d
+PackageVersion: 3.10.1-1
+PackageSupplier: Organization: Magnus Holmgren <holmgren@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: nettle 3.10.1-1
+PackageLicenseConcluded: LGPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.0-only AND MIT AND LicenseRef-97d647789566534c AND LicenseRef-abb60753a4b5686d AND GPL-2.0-only AND LicenseRef-4e0f044946686354
+PackageLicenseDeclared: LGPL-3.0-or-later AND GPL-2.0-or-later AND LGPL-2.0-or-later AND LGPL-2.0-only AND MIT AND LicenseRef-97d647789566534c AND LicenseRef-abb60753a4b5686d AND GPL-2.0-only AND LicenseRef-4e0f044946686354
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libnettle8t64@3.10.1-1?arch=amd64&distro=debian-13.7
+
+##### Package: SQLAlchemy
+
+PackageName: SQLAlchemy
+SPDXID: SPDXRef-Package-dc11389f27f60038
+PackageVersion: 2.1.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: c0bcf32f6d268197d6913f11b19931dd41fef731
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/sqlalchemy@2.1.4
+
+##### Package: libsemanage2
+
+PackageName: libsemanage2
+SPDXID: SPDXRef-Package-ddedcc690da89dad
+PackageVersion: 3.8.1-1
+PackageSupplier: Organization: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: libsemanage 3.8.1-1
+PackageLicenseConcluded: LGPL-2.1-or-later AND LGPL-2.1-only AND GPL-2.0-only
+PackageLicenseDeclared: LGPL-2.1-or-later AND LGPL-2.1-only AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libsemanage2@3.8.1-1?arch=amd64&distro=debian-13.7
+
+##### Package: starlette
+
+PackageName: starlette
+SPDXID: SPDXRef-Package-df8465a302ffd75d
+PackageVersion: 1.7.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 01eeb9db27e9c6196b4f6a41b5672d85cc3601ad
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/starlette@1.7.0
+
+##### Package: truststore
+
+PackageName: truststore
+SPDXID: SPDXRef-Package-e2ce3ff1d1c6fc4d
+PackageVersion: 0.10.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/truststore@0.10.4
+
+##### Package: wheel
+
+PackageName: wheel
+SPDXID: SPDXRef-Package-e7d41b975da0c026
+PackageVersion: 0.46.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: fd2282090cab791b5cce6b518733919f9218d474
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/wheel@0.46.3
+
+##### Package: idna
+
+PackageName: idna
+SPDXID: SPDXRef-Package-ed25f270b0021d2a
+PackageVersion: 3.20
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 62fd8254288b5cc6964396991d910b20ba41647c
+PackageLicenseConcluded: BSD-3-Clause
+PackageLicenseDeclared: BSD-3-Clause
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/idna@3.20
+
+##### Package: resolvelib
+
+PackageName: resolvelib
+SPDXID: SPDXRef-Package-ed53d9d1ebc4323c
+PackageVersion: 1.2.1
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageLicenseConcluded: NOASSERTION
+PackageLicenseDeclared: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/resolvelib@1.2.1
+
+##### Package: pytest-asyncio
+
+PackageName: pytest-asyncio
+SPDXID: SPDXRef-Package-efb68144e7761bea
+PackageVersion: 1.4.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 26b2acb7f3cedd90c6b3424bd51b1d90e548de88
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pytest-asyncio@1.4.0
+
+##### Package: ca-certificates
+
+PackageName: ca-certificates
+SPDXID: SPDXRef-Package-f04ba1ee900ddea9
+PackageVersion: 20250419
+PackageSupplier: Organization: Julien Cristau <jcristau@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: ca-certificates 20250419
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND MPL-2.0
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND MPL-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/ca-certificates@20250419?arch=all&distro=debian-13.7
+
+##### Package: platformdirs
+
+PackageName: platformdirs
+SPDXID: SPDXRef-Package-f0a6f22e3d3bacb0
+PackageVersion: 4.13.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: de83f47948349cbe182ddd4eb57a1bc3081effb3
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/platformdirs@4.13.0
+
+##### Package: uvloop
+
+PackageName: uvloop
+SPDXID: SPDXRef-Package-f25e351a3a2824e0
+PackageVersion: 0.23.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 88e44200985d32b525fcaf1da86edf5792af5edd
+PackageLicenseConcluded: Apache-2.0 AND MIT
+PackageLicenseDeclared: Apache-2.0 AND MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/uvloop@0.23.0
+
+##### Package: typing-inspection
+
+PackageName: typing-inspection
+SPDXID: SPDXRef-Package-f32dfca8edf57fbd
+PackageVersion: 0.4.4
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 5cb7b1ab505de2492bf03ee277779c137fa36c9b
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/typing-inspection@0.4.4
+
+##### Package: asyncpg
+
+PackageName: asyncpg
+SPDXID: SPDXRef-Package-f642d6d14388fe47
+PackageVersion: 0.32.0
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: a28b306a5c87e86a69a79f8f2567b1f9ad298da3
+PackageLicenseConcluded: Apache-2.0
+PackageLicenseDeclared: Apache-2.0
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/asyncpg@0.32.0
+
+##### Package: PyYAML
+
+PackageName: PyYAML
+SPDXID: SPDXRef-Package-f78e6c2fabe7601
+PackageVersion: 6.0.3
+PackageSupplier: NOASSERTION
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+PackageVerificationCode: 2a4304b02c69d147cefbd120c37dafbbf5f753c9
+PackageLicenseConcluded: MIT
+PackageLicenseDeclared: MIT
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/pyyaml@6.0.3
+
+##### Package: grep
+
+PackageName: grep
+SPDXID: SPDXRef-Package-f7ddaa2a802176b5
+PackageVersion: 3.11-4
+PackageSupplier: Organization: Anibal Monsalve Salazar <anibal@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: grep 3.11-4
+PackageLicenseConcluded: GPL-3.0-or-later AND GPL-3.0-only
+PackageLicenseDeclared: GPL-3.0-or-later AND GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/grep@3.11-4?arch=amd64&distro=debian-13.7
+
+##### Package: debianutils
+
+PackageName: debianutils
+SPDXID: SPDXRef-Package-fb1caf00090e788e
+PackageVersion: 5.23.2
+PackageSupplier: Organization: Ileana Dumitrescu <ileanadumitrescu95@gmail.com>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: debianutils 5.23.2
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-abb60753a4b5686d AND SMAIL-GPL
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only AND LicenseRef-abb60753a4b5686d AND SMAIL-GPL
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/debianutils@5.23.2?arch=amd64&distro=debian-13.7
+
+##### Package: adduser
+
+PackageName: adduser
+SPDXID: SPDXRef-Package-fb51f1f70faed0ed
+PackageVersion: 3.152
+PackageSupplier: Organization: Debian Adduser Developers <adduser@packages.debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: adduser 3.152
+PackageLicenseConcluded: GPL-2.0-or-later AND GPL-2.0-only
+PackageLicenseDeclared: GPL-2.0-or-later AND GPL-2.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/adduser@3.152?arch=all&distro=debian-13.7
+
+##### Package: liblzma5
+
+PackageName: liblzma5
+SPDXID: SPDXRef-Package-fbdb5f678a84ea2d
+PackageVersion: 5.8.1-1+deb13u1
+PackageSupplier: Organization: Sebastian Andrzej Siewior <sebastian@breakpoint.cc>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: xz-utils 5.8.1-1+deb13u1
+PackageLicenseConcluded: 0BSD AND GPL-2.0-or-later AND LGPL-2.1-or-later AND FSFULLR AND GPL-3.0-or-later WITH Autoconf-exception-macro AND LicenseRef-fd21f3c328b9bed1 AND LicenseRef-3cdc756d656e2ca AND LicenseRef-5043101562052462 AND FSFUL AND LicenseRef-d83a6885a824fb4 AND LicenseRef-e31d45987d439b46 AND LGPL-2.1-only AND GPL-2.0-only AND GPL-3.0-only
+PackageLicenseDeclared: 0BSD AND GPL-2.0-or-later AND LGPL-2.1-or-later AND FSFULLR AND GPL-3.0-or-later WITH Autoconf-exception-macro AND LicenseRef-fd21f3c328b9bed1 AND LicenseRef-3cdc756d656e2ca AND LicenseRef-5043101562052462 AND FSFUL AND LicenseRef-d83a6885a824fb4 AND LicenseRef-e31d45987d439b46 AND LGPL-2.1-only AND GPL-2.0-only AND GPL-3.0-only
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/liblzma5@5.8.1-1%2Bdeb13u1?arch=amd64&distro=debian-13.7
+
+##### Package: libpam-modules
+
+PackageName: libpam-modules
+SPDXID: SPDXRef-Package-fe2b70f429030524
+PackageVersion: 1.7.0-5
+PackageSupplier: Organization: Sam Hartman <hartmans@debian.org>
+PackageDownloadLocation: NONE
+PrimaryPackagePurpose: LIBRARY
+FilesAnalyzed: false
+PackageSourceInfo: built package from: pam 1.7.0-5
+PackageLicenseConcluded: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+PackageLicenseDeclared: BSD-3-Clause AND GPL-2.0-or-later AND GPL-1.0-only AND GPL-2.0-only AND GPL-3.0-only AND LicenseRef-4f0e9e13bc07dfe0 AND LicenseRef-eed92e38277c402b AND LGPL-2.0-or-later AND LGPL-2.0-only AND LicenseRef-abb60753a4b5686d AND Beerware
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libpam-modules@1.7.0-5?arch=amd64&distro=debian-13.7
+
+##### Other Licenses
+
+LicenseID: LicenseRef-12c6299793cdf486
+ExtractedText: This component is licensed under "verbatim"
+LicenseName: verbatim
+
+LicenseID: LicenseRef-1340db71a4796d76
+ExtractedText: This component is licensed under "BSD-3-clause-WIDE"
+LicenseName: BSD-3-clause-WIDE
+
+LicenseID: LicenseRef-15e6981ccfded7c7
+ExtractedText: This component is licensed under "GPL-2.0-or-later WITH Autoconf-data-exception"
+LicenseName: GPL-2.0-or-later WITH Autoconf-data-exception
+
+LicenseID: LicenseRef-1d467a358256effa
+ExtractedText: This component is licensed under "Univ-Coimbra"
+LicenseName: Univ-Coimbra
+
+LicenseID: LicenseRef-2efc8a1f8553da49
+ExtractedText: This component is licensed under "BSD-2-clause-verbatim"
+LicenseName: BSD-2-clause-verbatim
+
+LicenseID: LicenseRef-3684da1e0c7ec660
+ExtractedText: This component is licensed under "public-domain-s-s-d"
+LicenseName: public-domain-s-s-d
+
+LicenseID: LicenseRef-3ba59e3587be17a6
+ExtractedText: This component is licensed under "BSD-3-clause-Carnegie"
+LicenseName: BSD-3-clause-Carnegie
+
+LicenseID: LicenseRef-3cdc756d656e2ca
+ExtractedText: This component is licensed under "PD"
+LicenseName: PD
+
+LicenseID: LicenseRef-423408a015e1a81c
+ExtractedText: This component is licensed under "GPL-2.0-or-later WITH link-exception"
+LicenseName: GPL-2.0-or-later WITH link-exception
+
+LicenseID: LicenseRef-461e73656ab4d0
+ExtractedText: This component is licensed under "MIT-X11"
+LicenseName: MIT-X11
+
+LicenseID: LicenseRef-48da3e37920b2f31
+ExtractedText: This component is licensed under "REGCOMP"
+LicenseName: REGCOMP
+
+LicenseID: LicenseRef-48e0a17df621f443
+ExtractedText: This component is licensed under "pcre"
+LicenseName: pcre
+
+LicenseID: LicenseRef-4e0f044946686354
+ExtractedText: This component is licensed under "GAP"
+LicenseName: GAP
+
+LicenseID: LicenseRef-4f0e9e13bc07dfe0
+ExtractedText: This component is licensed under "GPL-3.0-or-later WITH Bison-exception"
+LicenseName: GPL-3.0-or-later WITH Bison-exception
+
+LicenseID: LicenseRef-5043101562052462
+ExtractedText: This component is licensed under "permissive-nowarranty"
+LicenseName: permissive-nowarranty
+
+LicenseID: LicenseRef-54581981ae1a2a3b
+ExtractedText: This component is licensed under "public-domain-md4"
+LicenseName: public-domain-md4
+
+LicenseID: LicenseRef-5c04fedb1301880a
+ExtractedText: This component is licensed under "BZIP"
+LicenseName: BZIP
+
+LicenseID: LicenseRef-5cf40fe1fa67583b
+ExtractedText: This component is licensed under "BSD-5-clause-Peter-Wemm"
+LicenseName: BSD-5-clause-Peter-Wemm
+
+LicenseID: LicenseRef-5dafbc33c54f5dc1
+ExtractedText: This component is licensed under "BSD-3-clause-GENERIC"
+LicenseName: BSD-3-clause-GENERIC
+
+LicenseID: LicenseRef-60502d325d1d92ff
+ExtractedText: This component is licensed under "public-domain-md5"
+LicenseName: public-domain-md5
+
+LicenseID: LicenseRef-624b8f9a8d17a79d
+ExtractedText: This component is licensed under "BSL-1"
+LicenseName: BSL-1
+
+LicenseID: LicenseRef-6ded1dc35ad9b65d
+ExtractedText: This component is licensed under "BSD-3-Clause WITH weird-numbering"
+LicenseName: BSD-3-Clause WITH weird-numbering
+
+LicenseID: LicenseRef-70f62aeb66eefed5
+ExtractedText: This component is licensed under "DONT-CHANGE-THE-GPL"
+LicenseName: DONT-CHANGE-THE-GPL
+
+LicenseID: LicenseRef-72d43f152d6ff8fe
+ExtractedText: This component is licensed under "BSD-4-clause-POWERDOG"
+LicenseName: BSD-4-clause-POWERDOG
+
+LicenseID: LicenseRef-74776a0cc7195ca2
+ExtractedText: This component is licensed under "MIT-like-Lord"
+LicenseName: MIT-like-Lord
+
+LicenseID: LicenseRef-74962231009a4ef
+ExtractedText: This component is licensed under "public-domain-sha1"
+LicenseName: public-domain-sha1
+
+LicenseID: LicenseRef-7d439129f49f8b4c
+ExtractedText: This component is licensed under "permissive"
+LicenseName: permissive
+
+LicenseID: LicenseRef-804bb003c6a2e5ee
+ExtractedText: This component is licensed under "Unicode"
+LicenseName: Unicode
+
+LicenseID: LicenseRef-8a3f5fa45b1b1c21
+ExtractedText: This component is licensed under "BSLA"
+LicenseName: BSLA
+
+LicenseID: LicenseRef-8bf7c6b30c74e012
+ExtractedText: This component is licensed under "DEC"
+LicenseName: DEC
+
+LicenseID: LicenseRef-8ca8070d1298fe8b
+ExtractedText: This component is licensed under "ISC-no-attribution"
+LicenseName: ISC-no-attribution
+
+LicenseID: LicenseRef-9333c215157468c2
+ExtractedText: This component is licensed under "BSD-3-clause-Berkeley"
+LicenseName: BSD-3-clause-Berkeley
+
+LicenseID: LicenseRef-961e5c4a0f36800e
+ExtractedText: This component is licensed under "ISC-Original"
+LicenseName: ISC-Original
+
+LicenseID: LicenseRef-97d647789566534c
+ExtractedText: This component is licensed under "GPL-3.0-only WITH autoconf-exception+"
+LicenseName: GPL-3.0-only WITH autoconf-exception+
+
+LicenseID: LicenseRef-9d11dc0fc647162e
+ExtractedText: This component is licensed under "BSD-2-clause-author"
+LicenseName: BSD-2-clause-author
+
+LicenseID: LicenseRef-a270d1754e380e49
+ExtractedText: This component is licensed under "BSD-3-clause-John-Birrell"
+LicenseName: BSD-3-clause-John-Birrell
+
+LicenseID: LicenseRef-a40e208a4885e027
+ExtractedText: This component is licensed under "TEXT-TABS"
+LicenseName: TEXT-TABS
+
+LicenseID: LicenseRef-a43625359a0b6781
+ExtractedText: This component is licensed under "BSD-3-clause-Oracle"
+LicenseName: BSD-3-clause-Oracle
+
+LicenseID: LicenseRef-a58a180f0b4def25
+ExtractedText: This component is licensed under "TCL-like"
+LicenseName: TCL-like
+
+LicenseID: LicenseRef-a7fc6a281f31c55f
+ExtractedText: This component is licensed under "Artistic-2"
+LicenseName: Artistic-2
+
+LicenseID: LicenseRef-abb60753a4b5686d
+ExtractedText: This component is licensed under "public-domain"
+LicenseName: public-domain
+
+LicenseID: LicenseRef-aece73c3fcfabe34
+ExtractedText: This component is licensed under "CORE-MATH"
+LicenseName: CORE-MATH
+
+LicenseID: LicenseRef-b5bd2b50139ca836
+ExtractedText: This component is licensed under "BSD-3-clause-Regents"
+LicenseName: BSD-3-clause-Regents
+
+LicenseID: LicenseRef-bf29d4370860637d
+ExtractedText: This component is licensed under "GPL-2.0-only WITH Linux-syscall-note-exception"
+LicenseName: GPL-2.0-only WITH Linux-syscall-note-exception
+
+LicenseID: LicenseRef-bfb7b77ebb9c4da0
+ExtractedText: This component is licensed under "GFDL-3"
+LicenseName: GFDL-3
+
+LicenseID: LicenseRef-c182a7dc004f285e
+ExtractedText: This component is licensed under "Carnegie"
+LicenseName: Carnegie
+
+LicenseID: LicenseRef-c35881024c8fc09f
+ExtractedText: This component is licensed under "BSD-3-clause-author"
+LicenseName: BSD-3-clause-author
+
+LicenseID: LicenseRef-c580c814dfe0f68d
+ExtractedText: This component is licensed under "SDBM-PUBLIC-DOMAIN"
+LicenseName: SDBM-PUBLIC-DOMAIN
+
+LicenseID: LicenseRef-c6b2410a5c598c88
+ExtractedText: This component is licensed under "LGPL-2.1-or-later WITH link-exception"
+LicenseName: LGPL-2.1-or-later WITH link-exception
+
+LicenseID: LicenseRef-ce67d673d70dc9d2
+ExtractedText: This component is licensed under "GPL-2.0-or-later WITH automake-exception"
+LicenseName: GPL-2.0-or-later WITH automake-exception
+
+LicenseID: LicenseRef-d18a04e4feb46ca4
+ExtractedText: This component is licensed under "GPL-3.0-or-later WITH Autoconf-data-exception"
+LicenseName: GPL-3.0-or-later WITH Autoconf-data-exception
+
+LicenseID: LicenseRef-d594a2107d8e7651
+ExtractedText: This component is licensed under "GFDL-1.3--no-invariant"
+LicenseName: GFDL-1.3--no-invariant
+
+LicenseID: LicenseRef-d6f9a4de9ffae498
+ExtractedText: This component is licensed under "PCRE"
+LicenseName: PCRE
+
+LicenseID: LicenseRef-d73b6710504f8977
+ExtractedText: This component is licensed under "BSD-3-clause-fjord"
+LicenseName: BSD-3-clause-fjord
+
+LicenseID: LicenseRef-d83a6885a824fb4
+ExtractedText: This component is licensed under "noderivs"
+LicenseName: noderivs
+
+LicenseID: LicenseRef-d945c63a350cfc43
+ExtractedText: This component is licensed under "FSF-manpages"
+LicenseName: FSF-manpages
+
+LicenseID: LicenseRef-dc8726d2de821f66
+ExtractedText: This component is licensed under "BSD-like-Spencer"
+LicenseName: BSD-like-Spencer
+
+LicenseID: LicenseRef-e2887b35a5eba0d0
+ExtractedText: This component is licensed under "GPL-3.0-or-later WITH Bison-2.2-exception"
+LicenseName: GPL-3.0-or-later WITH Bison-2.2-exception
+
+LicenseID: LicenseRef-e31d45987d439b46
+ExtractedText: This component is licensed under "PD-debian"
+LicenseName: PD-debian
+
+LicenseID: LicenseRef-e81f367b8432b910
+ExtractedText: This component is licensed under "Inner-Net"
+LicenseName: Inner-Net
+
+LicenseID: LicenseRef-e92018f75ad73ea6
+ExtractedText: This component is licensed under "BSD-3-clause-Aaron-D-Gifford"
+LicenseName: BSD-3-clause-Aaron-D-Gifford
+
+LicenseID: LicenseRef-eed92e38277c402b
+ExtractedText: This component is licensed under "BSD-tcp-wrappers"
+LicenseName: BSD-tcp-wrappers
+
+LicenseID: LicenseRef-efa4171bc0cae787
+ExtractedText: This component is licensed under "BSD-3-clause-Cambridge WITH BINARY-LIBRARY-LIKE-PACKAGES-exception"
+LicenseName: BSD-3-clause-Cambridge WITH BINARY-LIBRARY-LIKE-PACKAGES-exception
+
+LicenseID: LicenseRef-f26d295b2031843
+ExtractedText: This component is licensed under "GPL-2.0-only WITH bison-exception+"
+LicenseName: GPL-2.0-only WITH bison-exception+
+
+LicenseID: LicenseRef-f903241c457972c7
+ExtractedText: This component is licensed under "MIT-old"
+LicenseName: MIT-old
+
+LicenseID: LicenseRef-fb4f6ca6869659b
+ExtractedText: This component is licensed under "IBM"
+LicenseName: IBM
+
+LicenseID: LicenseRef-fd21f3c328b9bed1
+ExtractedText: This component is licensed under "none"
+LicenseName: none
+
+##### Relationships
+
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-OperatingSystem-fd1873ba3ae91a40
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-11b3b8fcf1d839b7
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-12380a17076a6ea4
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-17d24150173e7e9
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-1839ff0b8045b1ba
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-1a40793fc27f0e4b
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-1d10c5f30a9b2eb9
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-2060b607dd7187ad
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-22b89d606bc886a3
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-233e034745481c62
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-23e7ef528b24a341
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-28192ebd46aa8af0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-2859f50f4d6c69c0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-2aa8a6d490d6ddd1
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-2c3acac192b31102
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-2f0448a72fc81008
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-3449008bbaa55402
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-34d494d1cc63f1db
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-34ee2895526f6f99
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-36279618467024bc
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-3e5cf4660e1f18da
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-3ebf8eff28456a3f
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-48916ff9f586f6dc
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-4c8eb6c0317d9479
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-4ca249071b4a1faf
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-4d898585fbfe1d64
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-4f9d730c65eb3a9e
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-5018675c625a3fad
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-50d4a847156502d6
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-541dc0e3260600ab
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-57db87940fd60b7a
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-59f2b9acea6f68c8
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-5d28d7c8abdad397
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-64e666f931efda92
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-65699b2555a4600c
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-6a19b39b5e9b4798
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-704543293e5dc3eb
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-70c4722d55278326
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-73871d779a4e58d7
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7b2b879cc916a167
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7c31fd55a4baad53
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7d6acf76e4cd768b
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7d74f800047a89f1
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7e94336f0c87d817
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-7fbcfcea08add25a
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8a8682ed2cd7f449
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8aa623654b3c31b0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8c855caaa3b32c63
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8c87b0ac40ca1d34
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8ce5bdf400670cc4
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8e8ba941da6f58c9
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-8f3da65ae44b5b1
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-92201af528fcc760
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-92df51599b4cdeb5
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-932c9764f4731d8e
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9479a371c919c002
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-956d4f2b215f9304
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9576c5cd92a7b4a7
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-979d543378b9d0ca
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-98f185ec0527ad8b
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9a43f69ac6c8101f
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9be6865652d8f76a
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9c911aca7056bbc1
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9d968b70c115575b
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-9e39251475421e92
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-a03b7810c5533a2
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-a15a7315440c478d
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-a1c4cf9179d2aac
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-a49c0d12b3c94d5c
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-b31712334c983ff0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-b7d4fc3a874c703e
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-b82b606965d1b794
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-b8e362cff731ce23
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-bed8c1e3ce51ab01
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-c21ec38c89c0b3b8
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-c25ca437592e0f8
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-c467535ae26352dc
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-c5fb3c336c37ff25
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-c96de39febdc1084
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-cce1489042675a25
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-d366b04350665e76
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-d3df831160e0006b
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-d6ccf1967f1794d2
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-d6e75c822b7ea589
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-dc11389f27f60038
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-df8465a302ffd75d
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-e2ce3ff1d1c6fc4d
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-e7d41b975da0c026
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-ed25f270b0021d2a
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-ed53d9d1ebc4323c
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-efb68144e7761bea
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-f0a6f22e3d3bacb0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-f25e351a3a2824e0
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-f32dfca8edf57fbd
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-f642d6d14388fe47
+Relationship: SPDXRef-ContainerImage-84d3ef53f71a7869 CONTAINS SPDXRef-Package-f78e6c2fabe7601
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ContainerImage-84d3ef53f71a7869
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-112b13379861edd1
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-1322aa12fc90826e
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-1df7d3cdeaf6fae5
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-1f26bfb55dbe51c
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-222402c3b2d685c5
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-250913cb2cd7c1
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-25bda7bece7f09bd
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-31f14dc23524979a
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-38286d01027753e7
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-3a79e3f008bc8347
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-43a39942cbc6f728
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-449b89ee050448c2
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-464d4956ed182b47
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-4d1923505189794c
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-50c1c05dd0e78274
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-6efad17b6faf775
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-73900ad2ce17bd5b
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-761dff62bfad67eb
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-795913f23f76a186
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-81161e97485e16c6
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-86a2af3009e111b3
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-87ce959afb4ecb39
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-92927b181caad39f
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-96d4119543907ea7
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-aef5fb9008a55309
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-bc3af863a965e46e
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-bc98987c942d9061
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-c84b760bf071ee95
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-cbc5d7f89ac8d35f
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-cc24e60803cbc609
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-cc68e9b59863d620
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-d32bb0166457223f
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-d974b5f259cf5b09
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-f04ba1ee900ddea9
+Relationship: SPDXRef-OperatingSystem-fd1873ba3ae91a40 CONTAINS SPDXRef-Package-f7ddaa2a802176b5
+Relationship: SPDXRef-Package-1020e47a9bae1794 DEPENDS_ON SPDXRef-Package-3d122cd0d173138f
+Relationship: SPDXRef-Package-1020e47a9bae1794 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-10679e213c4c376c DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-10679e213c4c376c DEPENDS_ON SPDXRef-Package-9981ca8176fbf5a
+Relationship: SPDXRef-Package-10679e213c4c376c DEPENDS_ON SPDXRef-Package-cdd16daae47f197a
+Relationship: SPDXRef-Package-112b13379861edd1 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-11b3b8fcf1d839b7 CONTAINS SPDXRef-File-98b52ae2e6da85a4
+Relationship: SPDXRef-Package-12380a17076a6ea4 CONTAINS SPDXRef-File-c88c77d3a6fee0d8
+Relationship: SPDXRef-Package-17d24150173e7e9 CONTAINS SPDXRef-File-76bf35562d43797
+Relationship: SPDXRef-Package-1a40793fc27f0e4b CONTAINS SPDXRef-File-5c8d9c959f2a5a5f
+Relationship: SPDXRef-Package-1bd07a983ef402cb DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-1df7d3cdeaf6fae5 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-1f26bfb55dbe51c DEPENDS_ON SPDXRef-Package-1020e47a9bae1794
+Relationship: SPDXRef-Package-1f26bfb55dbe51c DEPENDS_ON SPDXRef-Package-588a1bbeb9c9ecdb
+Relationship: SPDXRef-Package-1f26bfb55dbe51c DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-222402c3b2d685c5 DEPENDS_ON SPDXRef-Package-46955b8793b13619
+Relationship: SPDXRef-Package-225ff41d01d984dc DEPENDS_ON SPDXRef-Package-63168f15ee03e63c
+Relationship: SPDXRef-Package-225ff41d01d984dc DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-225ff41d01d984dc DEPENDS_ON SPDXRef-Package-c4fa95184e867821
+Relationship: SPDXRef-Package-233e034745481c62 CONTAINS SPDXRef-File-549246973db6a821
+Relationship: SPDXRef-Package-23e7ef528b24a341 CONTAINS SPDXRef-File-5e3c1ba9d81f2b73
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-10679e213c4c376c
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-1bd07a983ef402cb
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-27af44b8d88e1bb
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-3f6ac7edccf40b02
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-687891a246d17c2d
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-8b8027cae7be7ba0
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-8e0d0d69282528e9
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-90951d2ae5849694
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-9981ca8176fbf5a
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-cc808b70fbc4b413
+Relationship: SPDXRef-Package-24dad7b2d8a15397 DEPENDS_ON SPDXRef-Package-fbdb5f678a84ea2d
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-10679e213c4c376c
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-24dad7b2d8a15397
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-2df479c89a5c3a4e
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-5873910d97ffe7a3
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-6f31e97527f38675
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-8b8027cae7be7ba0
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-8e0d0d69282528e9
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-9981ca8176fbf5a
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-9adc6ed7c1ea7d6a
+Relationship: SPDXRef-Package-25bda7bece7f09bd DEPENDS_ON SPDXRef-Package-fb51f1f70faed0ed
+Relationship: SPDXRef-Package-27af44b8d88e1bb DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-28192ebd46aa8af0 CONTAINS SPDXRef-File-388568a85723700f
+Relationship: SPDXRef-Package-2859f50f4d6c69c0 CONTAINS SPDXRef-File-f428a43e991e68d2
+Relationship: SPDXRef-Package-2aa8a6d490d6ddd1 CONTAINS SPDXRef-File-7d78b5faaef10170
+Relationship: SPDXRef-Package-2c3acac192b31102 CONTAINS SPDXRef-File-535c1fce040c472
+Relationship: SPDXRef-Package-2df479c89a5c3a4e DEPENDS_ON SPDXRef-Package-1020e47a9bae1794
+Relationship: SPDXRef-Package-2df479c89a5c3a4e DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-2df479c89a5c3a4e DEPENDS_ON SPDXRef-Package-895fa2793eae577
+Relationship: SPDXRef-Package-2f0448a72fc81008 CONTAINS SPDXRef-File-7deb8d9e898502e1
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-1020e47a9bae1794
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-225ff41d01d984dc
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-2df479c89a5c3a4e
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-565f4bb0c73047f6
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-70dd61ba8c7b5294
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-8db81ccac33dfa4f
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-92e5e01a0de7dc99
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-b46fee5bc05b70c9
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-cf6be8f98b71e4d8
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-ddedcc690da89dad
+Relationship: SPDXRef-Package-3105a9b96af38412 DEPENDS_ON SPDXRef-Package-fe2b70f429030524
+Relationship: SPDXRef-Package-35fbcdec92b2a22b DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-36279618467024bc CONTAINS SPDXRef-File-b9be088eef6fd317
+Relationship: SPDXRef-Package-3a79e3f008bc8347 DEPENDS_ON SPDXRef-Package-fb1caf00090e788e
+Relationship: SPDXRef-Package-3d122cd0d173138f DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-3e5cf4660e1f18da CONTAINS SPDXRef-File-ff13704ca57a6bf1
+Relationship: SPDXRef-Package-3f6ac7edccf40b02 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-225ff41d01d984dc
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-565f4bb0c73047f6
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-6250211358a4e1e3
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-cf6be8f98b71e4d8
+Relationship: SPDXRef-Package-449b89ee050448c2 DEPENDS_ON SPDXRef-Package-fe2b70f429030524
+Relationship: SPDXRef-Package-464d4956ed182b47 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-4bf7e2c26d29b75d DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-4c8eb6c0317d9479 CONTAINS SPDXRef-File-9c38508dde6dd793
+Relationship: SPDXRef-Package-5018675c625a3fad CONTAINS SPDXRef-File-4975143339bf3157
+Relationship: SPDXRef-Package-541dc0e3260600ab CONTAINS SPDXRef-File-3917bbd12b00e2af
+Relationship: SPDXRef-Package-565f4bb0c73047f6 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-569bf496927d3c4 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-5873910d97ffe7a3 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-588a1bbeb9c9ecdb DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-59f2b9acea6f68c8 CONTAINS SPDXRef-File-d76ed0b7305a14c0
+Relationship: SPDXRef-Package-5d8db2f85415d8d1 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-6250211358a4e1e3 DEPENDS_ON SPDXRef-Package-46955b8793b13619
+Relationship: SPDXRef-Package-6250211358a4e1e3 DEPENDS_ON SPDXRef-Package-fe2b70f429030524
+Relationship: SPDXRef-Package-63168f15ee03e63c DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-65699b2555a4600c CONTAINS SPDXRef-File-77478d0512a1740f
+Relationship: SPDXRef-Package-687891a246d17c2d DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-6efad17b6faf775 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-6f31e97527f38675 DEPENDS_ON SPDXRef-Package-4bf7e2c26d29b75d
+Relationship: SPDXRef-Package-6f31e97527f38675 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-6f31e97527f38675 DEPENDS_ON SPDXRef-Package-9981ca8176fbf5a
+Relationship: SPDXRef-Package-6f31e97527f38675 DEPENDS_ON SPDXRef-Package-a12effa2a0ca9cde
+Relationship: SPDXRef-Package-6f31e97527f38675 DEPENDS_ON SPDXRef-Package-da188e5221ef754d
+Relationship: SPDXRef-Package-704543293e5dc3eb CONTAINS SPDXRef-File-2f3eeb5372140f63
+Relationship: SPDXRef-Package-70dd61ba8c7b5294 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-73871d779a4e58d7 CONTAINS SPDXRef-File-abb849bf4279c657
+Relationship: SPDXRef-Package-73900ad2ce17bd5b DEPENDS_ON SPDXRef-Package-355c65090a68f1e6
+Relationship: SPDXRef-Package-73900ad2ce17bd5b DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-73900ad2ce17bd5b DEPENDS_ON SPDXRef-Package-c1b542410ec8c799
+Relationship: SPDXRef-Package-761dff62bfad67eb DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-7b2b879cc916a167 CONTAINS SPDXRef-File-359ac7775c566a48
+Relationship: SPDXRef-Package-7d6acf76e4cd768b CONTAINS SPDXRef-File-7f9133e6e87bb69f
+Relationship: SPDXRef-Package-7d7365e0977e4df6 DEPENDS_ON SPDXRef-Package-9981ca8176fbf5a
+Relationship: SPDXRef-Package-7e94336f0c87d817 CONTAINS SPDXRef-File-c4f5b7e09d126d92
+Relationship: SPDXRef-Package-7fbcfcea08add25a CONTAINS SPDXRef-File-f2ab3c26a8ad4b7f
+Relationship: SPDXRef-Package-81161e97485e16c6 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-81161e97485e16c6 DEPENDS_ON SPDXRef-Package-c1b542410ec8c799
+Relationship: SPDXRef-Package-83091b7b6549130 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-86a2af3009e111b3 DEPENDS_ON SPDXRef-Package-7e5d7e0036b61e6
+Relationship: SPDXRef-Package-895fa2793eae577 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-8a8682ed2cd7f449 CONTAINS SPDXRef-File-d362688c56431278
+Relationship: SPDXRef-Package-8b45d2bbdc625f7f DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-8b45d2bbdc625f7f DEPENDS_ON SPDXRef-Package-8e0d0d69282528e9
+Relationship: SPDXRef-Package-8b8027cae7be7ba0 DEPENDS_ON SPDXRef-Package-569bf496927d3c4
+Relationship: SPDXRef-Package-8b8027cae7be7ba0 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-8ce5bdf400670cc4 CONTAINS SPDXRef-File-9377d4869b893adb
+Relationship: SPDXRef-Package-8db81ccac33dfa4f DEPENDS_ON SPDXRef-Package-5d8db2f85415d8d1
+Relationship: SPDXRef-Package-8db81ccac33dfa4f DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-8e0d0d69282528e9 DEPENDS_ON SPDXRef-Package-1bd07a983ef402cb
+Relationship: SPDXRef-Package-8e0d0d69282528e9 DEPENDS_ON SPDXRef-Package-27af44b8d88e1bb
+Relationship: SPDXRef-Package-8e0d0d69282528e9 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-8e0d0d69282528e9 DEPENDS_ON SPDXRef-Package-8b45d2bbdc625f7f
+Relationship: SPDXRef-Package-8e8ba941da6f58c9 CONTAINS SPDXRef-File-361f18ba670c3279
+Relationship: SPDXRef-Package-8f3da65ae44b5b1 CONTAINS SPDXRef-File-2dccc0ff0ff5414f
+Relationship: SPDXRef-Package-90951d2ae5849694 DEPENDS_ON SPDXRef-Package-569bf496927d3c4
+Relationship: SPDXRef-Package-90951d2ae5849694 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-92201af528fcc760 CONTAINS SPDXRef-File-35c0ae08d28c00dd
+Relationship: SPDXRef-Package-92927b181caad39f DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-92df51599b4cdeb5 CONTAINS SPDXRef-File-58da735268180b9d
+Relationship: SPDXRef-Package-9479a371c919c002 CONTAINS SPDXRef-File-76221990dff807d0
+Relationship: SPDXRef-Package-956d4f2b215f9304 CONTAINS SPDXRef-File-7869b8649ef2e3a5
+Relationship: SPDXRef-Package-9576c5cd92a7b4a7 CONTAINS SPDXRef-File-aa7e88dd591cc6f5
+Relationship: SPDXRef-Package-9981ca8176fbf5a DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-9981ca8176fbf5a DEPENDS_ON SPDXRef-Package-cdd16daae47f197a
+Relationship: SPDXRef-Package-9be6865652d8f76a CONTAINS SPDXRef-File-743e09ea7b7edaa8
+Relationship: SPDXRef-Package-9d968b70c115575b CONTAINS SPDXRef-File-bd2b975c4ab9adfb
+Relationship: SPDXRef-Package-a12effa2a0ca9cde DEPENDS_ON SPDXRef-Package-4bf7e2c26d29b75d
+Relationship: SPDXRef-Package-a12effa2a0ca9cde DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-a12effa2a0ca9cde DEPENDS_ON SPDXRef-Package-da188e5221ef754d
+Relationship: SPDXRef-Package-a1c4cf9179d2aac CONTAINS SPDXRef-File-fcb311f8e6cd8415
+Relationship: SPDXRef-Package-a49c0d12b3c94d5c CONTAINS SPDXRef-File-a61a96ca91dfc5c
+Relationship: SPDXRef-Package-aef5fb9008a55309 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-b1b4f43159f150ff DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-b1b4f43159f150ff DEPENDS_ON SPDXRef-Package-8e0d0d69282528e9
+Relationship: SPDXRef-Package-b31712334c983ff0 CONTAINS SPDXRef-File-f7e5ddccacb16cd2
+Relationship: SPDXRef-Package-b46fee5bc05b70c9 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-b7d4fc3a874c703e CONTAINS SPDXRef-File-9c49d820408f4ccd
+Relationship: SPDXRef-Package-b82b606965d1b794 CONTAINS SPDXRef-File-4f9b5b21ff78446f
+Relationship: SPDXRef-Package-bc3af863a965e46e DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-bc98987c942d9061 DEPENDS_ON SPDXRef-Package-d13130afa7f152db
+Relationship: SPDXRef-Package-bc98987c942d9061 DEPENDS_ON SPDXRef-Package-fb1caf00090e788e
+Relationship: SPDXRef-Package-bed8c1e3ce51ab01 CONTAINS SPDXRef-File-e3df86a5ec8b1237
+Relationship: SPDXRef-Package-c1b542410ec8c799 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-c25ca437592e0f8 CONTAINS SPDXRef-File-25c4b13b08884a43
+Relationship: SPDXRef-Package-c467535ae26352dc CONTAINS SPDXRef-File-cce135ff92502592
+Relationship: SPDXRef-Package-c5fb3c336c37ff25 CONTAINS SPDXRef-File-e9163af6dbc0cf15
+Relationship: SPDXRef-Package-c96de39febdc1084 CONTAINS SPDXRef-File-4665fe066a19dd6e
+Relationship: SPDXRef-Package-cc68e9b59863d620 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-cc68e9b59863d620 DEPENDS_ON SPDXRef-Package-83091b7b6549130
+Relationship: SPDXRef-Package-cc808b70fbc4b413 DEPENDS_ON SPDXRef-Package-687891a246d17c2d
+Relationship: SPDXRef-Package-cc808b70fbc4b413 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-cce1489042675a25 CONTAINS SPDXRef-File-32e93e5bbe3312dd
+Relationship: SPDXRef-Package-cf6be8f98b71e4d8 DEPENDS_ON SPDXRef-Package-225ff41d01d984dc
+Relationship: SPDXRef-Package-cf6be8f98b71e4d8 DEPENDS_ON SPDXRef-Package-46955b8793b13619
+Relationship: SPDXRef-Package-cf6be8f98b71e4d8 DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-1020e47a9bae1794
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-225ff41d01d984dc
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-565f4bb0c73047f6
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-8b8027cae7be7ba0
+Relationship: SPDXRef-Package-d32bb0166457223f DEPENDS_ON SPDXRef-Package-cf6be8f98b71e4d8
+Relationship: SPDXRef-Package-d366b04350665e76 CONTAINS SPDXRef-File-bffc4ca42f4d3684
+Relationship: SPDXRef-Package-d3df831160e0006b CONTAINS SPDXRef-File-ba34bfc1c6f85bf
+Relationship: SPDXRef-Package-d6e75c822b7ea589 CONTAINS SPDXRef-File-21b7cd1cb5b78ae
+Relationship: SPDXRef-Package-da188e5221ef754d DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-dc11389f27f60038 CONTAINS SPDXRef-File-17bab96d2d3b983d
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-1020e47a9bae1794
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-225ff41d01d984dc
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-35fbcdec92b2a22b
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-3f6ac7edccf40b02
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+Relationship: SPDXRef-Package-ddedcc690da89dad DEPENDS_ON SPDXRef-Package-9ad66b6f9fd6824e
+Relationship: SPDXRef-Package-df8465a302ffd75d CONTAINS SPDXRef-File-734b39c7dce36c0d
+Relationship: SPDXRef-Package-e7d41b975da0c026 CONTAINS SPDXRef-File-e44eb09d2af7fbf0
+Relationship: SPDXRef-Package-ed25f270b0021d2a CONTAINS SPDXRef-File-322e8363418dd6fc
+Relationship: SPDXRef-Package-efb68144e7761bea CONTAINS SPDXRef-File-4b373f248f76ea6c
+Relationship: SPDXRef-Package-f04ba1ee900ddea9 DEPENDS_ON SPDXRef-Package-46955b8793b13619
+Relationship: SPDXRef-Package-f04ba1ee900ddea9 DEPENDS_ON SPDXRef-Package-b1b4f43159f150ff
+Relationship: SPDXRef-Package-f0a6f22e3d3bacb0 CONTAINS SPDXRef-File-9f6f2f6b595b6642
+Relationship: SPDXRef-Package-f25e351a3a2824e0 CONTAINS SPDXRef-File-15ad4ce44311ef33
+Relationship: SPDXRef-Package-f32dfca8edf57fbd CONTAINS SPDXRef-File-971f3506872da95f
+Relationship: SPDXRef-Package-f642d6d14388fe47 CONTAINS SPDXRef-File-704f17c2acb58a0f
+Relationship: SPDXRef-Package-f78e6c2fabe7601 CONTAINS SPDXRef-File-92cd31131e29fb58
+Relationship: SPDXRef-Package-fb51f1f70faed0ed DEPENDS_ON SPDXRef-Package-3105a9b96af38412
+Relationship: SPDXRef-Package-fbdb5f678a84ea2d DEPENDS_ON SPDXRef-Package-7d7365e0977e4df6
+
