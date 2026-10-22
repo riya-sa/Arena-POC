@@ -47,12 +47,36 @@ logger = get_logger(__name__)
 #     await close_db()
 #     logger.info("✅ Application stopped")
 
+# @asynccontextmanager
+# async def lifespan(app: FastAPI):
+#     """Application lifecycle context manager."""
+#     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
+#     logger.info(f"Environment: {settings.environment.value}")
+#     logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
+    
+#     try:
+#         await init_db()
+#     except Exception as e:
+#         logger.error(f"Failed to initialize database: {str(e)}")
+#         if settings.environment.value == "production":
+#             raise
+#         logger.info("App starting without database")
+    
+#     logger.info("✅ Application started")
+    
+#     yield
+    
+#     logger.info("Shutting down application...")
+#     await close_db()
+#     logger.info("✅ Application stopped")
+
+
+# For production mvp
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifecycle context manager."""
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
-    logger.info(f"Environment: {settings.environment.value}")
-    logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
     
     try:
         await init_db()
@@ -60,14 +84,22 @@ async def lifespan(app: FastAPI):
         logger.error(f"Failed to initialize database: {str(e)}")
         if settings.environment.value == "production":
             raise
-        logger.info("App starting without database")
+    
+    # NEW: Initialize job queue
+    try:
+        from app.infrastructure.queue import init_queue
+        init_queue(host="localhost", port=6379)
+    except Exception as e:
+        logger.warning(f"Job queue not available: {str(e)}")
     
     logger.info("✅ Application started")
-    
     yield
     
-    logger.info("Shutting down application...")
-    await close_db()
+    try:
+        await close_db()
+    except Exception as e:
+        logger.error(f"Failed to close database: {str(e)}")
+    
     logger.info("✅ Application stopped")
 
 
