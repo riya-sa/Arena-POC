@@ -1,0 +1,1 @@
+﻿{"experiment_id": "exp-001", "candidate_id": "cand-001", "candidate_name": "Claude Opus", "tasks": [{"id": "task-001", "benchmark_id": "bench-001", "task_name": "Math Problem 1", "input_data": "2+2", "expected_output": "4"}]}
