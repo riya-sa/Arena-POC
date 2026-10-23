@@ -103,7 +103,7 @@ async def check_candidate_health(
         version = await service.get_active_version(candidate_id)
 
         # Import here to avoid circular dependency
-        from app.adapters.providers.factory import get_adapter
+        from app.adapters.providers import get_adapter
 
         adapter = get_adapter(version.config)
         is_healthy = adapter.health_check()

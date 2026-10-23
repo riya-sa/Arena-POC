@@ -120,3 +120,58 @@ async def get_queue_stats():
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
             detail=f"Queue unavailable: {str(e)}"
         )
+
+@router.get("/{job_id}/progress")
+async def get_job_progress(job_id: str):
+    """Get real-time job progress."""
+    from app.domain.jobs import JobService
+    
+    job = JobService.get_job(job_id)
+    if not job:
+        raise HTTPException(status_code=404, detail="Job not found")
+    
+    return {
+        "job_id": job_id,
+        "status": job.status.value,
+        "progress": job.progress_percent(),
+        "completed": job.completed_tasks,
+        "total": job.total_tasks,
+        "failed": job.failed_tasks,
+        "started_at": job.started_at.isoformat() if job.started_at else None,
+        "completed_at": job.completed_at.isoformat() if job.completed_at else None
+    }
+
+@router.get("/experiment/{experiment_id}/results")
+async def get_experiment_results(experiment_id: str):
+    """Get aggregated results for an experiment."""
+    from app.infrastructure.queue import get_queue
+    from app.domain.jobs.aggregator import ResultAggregator
+    
+    # Get all jobs for this experiment
+    queue = get_queue()
+    all_keys = queue.redis_client.keys(f"{queue.job_prefix}*")
+    
+    experiment_jobs = []
+    for key in all_keys:
+        try:
+            job_json = queue.redis_client.get(key)
+            if job_json:
+                from app.domain.jobs import Job
+                job = Job.from_json(job_json)
+                if job.experiment_id == experiment_id:
+                    experiment_jobs.append(job.id)
+        except:
+            continue
+    
+    if not experiment_jobs:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"No jobs found for experiment {experiment_id}"
+        )
+    
+    results = ResultAggregator.aggregate_experiment_results(
+        experiment_id,
+        experiment_jobs
+    )
+    
+    return results

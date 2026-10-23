@@ -4,7 +4,7 @@ from dataclasses import dataclass
 from typing import Optional
 
 from app import get_logger
-from app.adapters.providers.base import (AdapterRequest, AdapterResponse,
+from app.adapters.providers import (AdapterRequest, AdapterResponse,
                                          CandidateAdapter)
 from app.domain.shared.exceptions import (AdapterAuthError, AdapterConfigError,
                                           AdapterError, AdapterRateLimitError,

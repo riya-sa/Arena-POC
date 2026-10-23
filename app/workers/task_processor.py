@@ -7,7 +7,7 @@ from datetime import datetime
 from app.domain.jobs import JobStatus, TaskStatus, JobService
 from app.infrastructure.queue import get_queue
 from app.logger import logger
-from app.adapters.providers import get_adapter
+from app.adapters import get_adapter
 
 
 class TaskProcessor:

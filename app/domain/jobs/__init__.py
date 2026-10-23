@@ -11,6 +11,7 @@ from app.domain.jobs.models import (
     JobDetailResponse
 )
 from app.domain.jobs.service import JobService
+from app.domain.jobs.aggregator import ResultAggregator
 
 __all__ = [
     "Job",
@@ -21,5 +22,6 @@ __all__ = [
     "JobSubmitRequest",
     "JobResponse",
     "JobDetailResponse",
-    "JobService"
+    "JobService",
+    "ResultAggregator"
 ]
