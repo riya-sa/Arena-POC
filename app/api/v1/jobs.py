@@ -175,3 +175,27 @@ async def get_experiment_results(experiment_id: str):
     )
     
     return results
+
+@router.get("/system/metrics")
+async def get_system_metrics():
+    """Get system and execution metrics."""
+    from app.infrastructure.metrics import get_metrics
+    from app.infrastructure.queue import get_queue
+    from app.workers import get_worker_manager
+    
+    metrics = get_metrics().get_metrics()
+    
+    try:
+        queue = get_queue()
+        metrics["queue"] = {
+            "pending_jobs": queue.get_queue_length(),
+            "active_jobs": len(queue.get_active_jobs())
+        }
+    except:
+        metrics["queue"] = {"pending_jobs": 0, "active_jobs": 0}
+    
+    worker_mgr = get_worker_manager()
+    if worker_mgr:
+        metrics["workers"] = worker_mgr.get_stats()
+    
+    return metrics
