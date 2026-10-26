@@ -12,6 +12,8 @@ from app.config import settings
 from app.database import close_db, init_db
 from app.logger import get_logger
 
+from app.api.v1 import jobs
+
 # Import routers (will be created in app/api/v1/)
 # from app.api.v1.benchmarks import benchmark_router
 # from app.api.v1.candidates import candidate_router
@@ -19,40 +21,43 @@ from app.logger import get_logger
 # from app.api.v1.health import health_router
 
 logger = get_logger(__name__)
-
+print(f"🔍 Jobs router: {jobs.router}")
+print(f"🔍 Router routes: {jobs.router.routes}")
 
 # ============================================================================
 # Lifecycle Events
 # ============================================================================
 
-
 # @asynccontextmanager
 # async def lifespan(app: FastAPI):
-#     """
-#     Application lifecycle context manager.
-#     Handles startup and shutdown events.
-#     """
-#     # Startup
+#     """Application lifecycle context manager."""
 #     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
-#     logger.info(f"Environment: {settings.environment}")
+#     logger.info(f"Environment: {settings.environment.value}")
 #     logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
-
-#     await init_db()
+    
+#     try:
+#         await init_db()
+#     except Exception as e:
+#         logger.error(f"Failed to initialize database: {str(e)}")
+#         if settings.environment.value == "production":
+#             raise
+#         logger.info("App starting without database")
+    
 #     logger.info("✅ Application started")
-
+    
 #     yield
-
-#     # Shutdown
+    
 #     logger.info("Shutting down application...")
 #     await close_db()
 #     logger.info("✅ Application stopped")
+
+
+# For production mvp
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifecycle context manager."""
     logger.info(f"Starting {settings.app_name} v{settings.app_version}")
-    logger.info(f"Environment: {settings.environment.value}")
-    logger.info(f"Logging: {settings.log_format} format, {settings.log_level} level")
     
     try:
         await init_db()
@@ -60,14 +65,22 @@ async def lifespan(app: FastAPI):
         logger.error(f"Failed to initialize database: {str(e)}")
         if settings.environment.value == "production":
             raise
-        logger.info("App starting without database")
+    
+    # NEW: Initialize job queue
+    try:
+        from app.infrastructure.queue import init_queue
+        init_queue(host="localhost", port=6379)
+    except Exception as e:
+        logger.warning(f"Job queue not available: {str(e)}")
     
     logger.info("✅ Application started")
-    
     yield
     
-    logger.info("Shutting down application...")
-    await close_db()
+    try:
+        await close_db()
+    except Exception as e:
+        logger.error(f"Failed to close database: {str(e)}")
+    
     logger.info("✅ Application stopped")
 
 
@@ -120,6 +133,7 @@ async def health_check():
         "environment": settings.environment,
     }
 
+app.include_router(jobs.router, prefix="/api/v1")
 
 # Include v1 routers (will be uncommented once files exist)
 # app.include_router(benchmark_router, prefix="/api/v1")

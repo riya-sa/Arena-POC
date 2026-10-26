@@ -4,11 +4,11 @@ from dataclasses import dataclass
 from typing import Optional
 
 from app import get_logger
-from app.adapters.providers.anthropic_adapter import AnthropicAdapter
-from app.adapters.providers.base import CandidateAdapter
-from app.adapters.providers.local_adapter import LocalInferenceAdapter
-from app.adapters.providers.mock_adapter import MockAdapter
-from app.adapters.providers.openai_adapter import OpenAIAdapter
+from app.adapters.providers import AnthropicAdapter
+from app.adapters.providers import CandidateAdapter
+from app.adapters.providers import LocalInferenceAdapter
+from app.adapters.providers import MockAdapter
+from app.adapters.providers import OpenAIAdapter
 from app.domain.shared.exceptions import (AdapterAuthError, AdapterConfigError,
                                           AdapterError, AdapterRateLimitError,
                                           AdapterTimeoutError)

@@ -153,4 +153,4 @@ async def cancel_experiment(
             "cancelled_at": datetime.utcnow().isoformat(),
         }
     except ArenaException as e:
-        raise HTTPException(status_code=e.http_status, detail=e.message)
+        raise HTTPException(status_code=e.http_status, detail=e.message)    
