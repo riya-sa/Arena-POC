@@ -8,6 +8,7 @@ from app.domain.jobs import JobStatus, TaskStatus, JobService
 from app.infrastructure.queue import get_queue
 from app.logger import logger
 from app.adapters import get_adapter
+from app.workers.retry_manager import get_retry_manager
 
 
 class TaskProcessor:
@@ -48,7 +49,7 @@ class TaskProcessor:
             
             # Process each task
             for task in job.tasks:
-                result = await self.execute_task(
+                result = await self.execute_task_with_retry(
                     job_id,
                     task.id,
                     task.input_data,
@@ -130,7 +131,47 @@ class TaskProcessor:
                 "error": str(e),
                 "execution_time_ms": execution_time_ms
             }
-    
+    async def execute_task_with_retry(
+        self,
+        job_id: str,
+        task_id: str,
+        input_data: str,
+        expected_output: str,
+        adapter
+    ) -> dict:
+       
+        retry_mgr = get_retry_manager()
+        policy = retry_mgr.policy
+        
+        for attempt in range(policy.max_retries + 1):
+            try:
+                result = await self.execute_task(
+                    job_id, task_id, input_data, expected_output, adapter
+                )
+                
+                if attempt > 0:
+                    logger.info(f"Task {task_id} succeeded on retry {attempt}")
+                
+                return result
+            
+            except Exception as e:
+                if attempt < policy.max_retries:
+                    delay = policy.get_delay(attempt)
+                    retry_mgr.record_retry(job_id, task_id, attempt + 1, str(e))
+                    logger.warning(
+                        f"Task {task_id} retry {attempt + 1}/{policy.max_retries + 1} "
+                        f"in {delay}s: {str(e)}"
+                    )
+                    await asyncio.sleep(delay)
+                else:
+                    retry_mgr.record_retry(job_id, task_id, attempt + 1, str(e))
+                    logger.error(f"Task {task_id} failed after {attempt + 1} attempts")
+                    return {
+                        "success": False,
+                        "error": str(e),
+                        "execution_time_ms": 0
+                    }
+                
     async def run(self):
         """Main worker loop - continuously process jobs."""
         self.running = True
