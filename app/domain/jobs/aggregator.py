@@ -1,7 +1,8 @@
 """Aggregate job results into experiment results."""
 
 from typing import Dict, Any, List
-from app.domain.jobs import JobService
+# from app.domain.jobs import JobService
+from app.domain.jobs.service import JobService
 from app.logger import logger
 
 

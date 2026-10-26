@@ -20,6 +20,10 @@ class ErrorHandler:
     @staticmethod
     def categorize_error(error: Exception) -> ErrorType:
         """Categorize error type."""
+        # Check instance type first
+        if isinstance(error, TimeoutError):
+            return ErrorType.TIMEOUT
+        
         error_str = str(error).lower()
         
         if "timeout" in error_str:
